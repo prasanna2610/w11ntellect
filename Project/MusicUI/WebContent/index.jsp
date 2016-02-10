@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/Main.css">
 <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/Main.css" />
 <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/Main.css" />
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="css/bootstrap-css/bootstrap.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="js/html5demo.js"></script>

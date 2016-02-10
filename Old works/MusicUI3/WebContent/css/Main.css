@@ -1,0 +1,238 @@
+div.scroll {
+    background-color:none;
+    width:auto;
+    height:auto;
+    overflow: scroll;
+}
+    
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+	display:block;
+}
+nav ul {
+	background: none;
+	border-radius: 2px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	margin-left: 250px;
+}
+nav ul li {
+	float:left;
+	text-align:center;
+}
+#hovering ul li:hover {
+	background:lightyellow;
+}
+nav ul li:hover a {
+	color:black;
+}
+nav ul li a {
+	display: block;padding: 25px 40px;
+	color: black; text-decoration: none;
+}
+#histyle {
+	display: inline-block;
+    font-size: 80%;
+    text-align: right;
+    font-family: baskerville old face;
+    float: right;
+    margin-top: 65px;
+    position:fixed;
+    margin-left:150px;
+}
+	
+#slide{
+	margin: auto;
+	height:340px;
+	width:650px;
+}
+.left{
+	width: 45px;
+   	height: 29px;
+   	top: 150%;
+  	left: 0px;
+}
+	
+.right{
+	width: 45px;
+   	height: 29px;
+  	top: 150%;
+   	right:0px;
+}
+	
+#socialNav {
+	float: left;
+	margin-left:8px;
+	padding-top: 70px;
+}
+
+.social {
+	background-image: url('../indeximages/social.png');
+	background-repeat: no-repeat;
+	float: left;
+	display: block;
+	hover:none;
+	height: 30px;
+	width: 30px;
+	padding-right:20px;
+}
+
+#facebook {
+   background-position: -9px -7px;
+}
+
+#twitter {
+   background-position: -62px -7px;
+}
+
+#youtube {
+   background-position: -113px -7px;
+}
+
+#socialList {
+       padding: 0 0 0 0;
+       margin: 0 0 0 0; 
+}
+	
+figure img {
+	display:inline-block;
+}
+.memusic{
+	width:100%;
+	height:100%;
+	margin-top:400px;
+
+}
+.textarea{
+	position:relative;
+	width:485px;
+    height:100px;
+    float: left;
+	top:-50px;
+	margin-left:70px;
+}
+	
+.blue{
+	background-color:powderblue;
+	float:right;
+	width:405px;
+	height:650px;
+	position:relative;
+	text-align:left;
+	padding-top:1cm;
+	padding-left:1cm;
+	padding-right:4cm;
+	margin-top:290px;
+}
+	
+.joinme{
+	float:right;
+	width:500px;
+	height:200px;
+	position:relative;
+	text-align:left;
+}
+	
+.trans{
+	float:left;
+	margin-left:20px;
+	width:20px;
+	height:88px;
+	position:relative;
+	margin-top:70px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+	
+.sideblue{
+	background-color: powderblue;
+	float:right;
+	position:relative;
+	  width:590px;
+	height:319px;
+	top:71px;
+}
+#slider ul li span h2 {
+	font-size:24px;
+	line-height:24px;
+	color:red;
+	font-weight:normal;
+	font-family:'Communist-Regular';
+	text-shadow:1px 1px 1px #362c30;
+}
+
+#slider1{
+	width:85%;
+	height:93%;
+	//overflow:hidden;
+	//background-image:url("../Images/loading.gif");
+	//background-position:center;
+	float:left;
+	display:inline-block;
+	position:relative;
+	
+}
+#slider1 span{
+	width:100%;
+	height:100%;	
+	display:none;
+	position:absolute;
+	font: bold 13px verdana;
+	color:#686868;
+	top:21px;
+	right:5px;
+	text-transform: uppercase;
+	left:7px;
+}
+.left1{
+	display: block;
+    	background: url("../Images/sprite.png");
+    	width: 28px;
+    	height:30px;
+    	background-position: -1467px -46px
+}
+.right1{
+	display: block;
+   	background: url("../Images/sprite.png");
+    	width: 30px;
+    	height: 30px;
+    	background-position: -1488px -45px;
+}
+.btnCont{
+    display: inline-block;
+	width:15%;
+	height:93%;
+	float:left;
+ 	text-align: center;
+	margin-top:4%;
+}
+.wrapper{
+	display:block;
+	width:301px;
+	height:126px;
+	margin-top:90px;
+	background-color:white;
+	margin-right:31px;
+	float:right;
+}
+
+.btnCont span{
+	height: 30%;
+	height: 18%;
+    padding-top: 25%;
+}
+
+ 
+#paginationCont{
+	text-align:center;
+	display: inline-block;
+    	margin-left: -15px;
+}
+#slider1 span a{
+	text-decoration:none;
+	color:#D8D8D8;
+	padding-top:10px;
+}

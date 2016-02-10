@@ -1,11 +1,11 @@
 sliderInt=1;
 sliderNext=2;
 $(document).ready(function(){
-	$("#slider1 > span#"+sliderInt).fadeIn(300);
-	$("#slide > img#"+sliderInt).fadeIn(300);
-	count=$("#slider1 > span").size();
+	$("#slider1 > div#"+sliderInt).fadeIn(300);
+	$("#slide img#"+sliderInt).fadeIn(300);
+	count=$("#slider1 > div").size();
 	pagination(sliderInt,count);
-	$("#slider1 > span").hover(
+	$("#slider1 > div").hover(
 		function(){
 		stopLoop();
 		},
@@ -24,10 +24,10 @@ function startSlider(){
 		sliderNext=1;
 		sliderInt=1;
 	}
-	$("#slider1 > span").fadeOut(300);
-	$("#slider1 > span#"+sliderNext).fadeIn(300);
-	$("#slide > img").fadeOut(300);
-	$("#slide > img#"+sliderNext).fadeIn(300);
+	$("#slider1 > div").fadeOut(300);
+	$("#slider1 > div#"+sliderNext).fadeIn(300);
+	$("#slide img").fadeOut(300);
+	$("#slide img#"+sliderNext).fadeIn(300);
 	pagination(sliderNext,count);
 	sliderInt=sliderNext;
 	sliderNext=sliderNext+1;
@@ -56,10 +56,10 @@ function showSlide(id){
 		id=count;
 	}
 
-	$("#slider1 > span").fadeOut(300);
-	$("#slider1 > span#"+id).fadeIn(300);
-	$("#slide > img").fadeOut(300);
-	$("#slide > img#"+id).fadeIn(300);
+	$("#slider1 > div").fadeOut(300);
+	$("#slider1 > div#"+id).fadeIn(300);
+	$("#slide img").fadeOut(300);
+	$("#slide img#"+id).fadeIn(300);
 	pagination(id,count);
 	sliderInt=id;
 	sliderNext=id+1;
