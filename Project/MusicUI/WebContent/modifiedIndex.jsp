@@ -55,10 +55,9 @@
 			</nav>
 		</div>
 		<div class = "col-md-3">
-		<h1 id="ready-music"
-					class="text-right register-font">
-			<ins>READY TO EXPERIENCE ME&MUSIC ?</ins>
-		</h1>
+		<div id="ready-music" class="text-right register-font">
+			  <span>READY TO EXPERIENCE ME & MUSIC ?</span>
+		</div>
 		</div>
 </div>
 <div id = "content-1" class="row">
@@ -68,7 +67,7 @@
 </div>
 
 <div id="content-2" class = "row">
-		<div id="slide" class="col-sm-7 col-xs-5">
+		<div id="slide" class="col-sm-7">
 			<figure >
 				<img id="1" src="indeximages/aboutpageimg.jpg"
 					class="img-responsive">
@@ -77,7 +76,7 @@
 				<img id="3" src="indeximages/menu.jpg" class="img-responsive">
 			</figure>
 		</div>
-		<div class="col-sm-5 col-xs-5">
+		<div id="slide-text" class="col-sm-5">
 			<div id="slider1" class="col-xs-9">
 				<div id="1">
 					<div>We're open! come in & get your first 10 days free</div>
@@ -103,10 +102,10 @@
 		</div>
 </div>
 <div id = "content-3" class = "row">
-	<div id="now-open" class="col-md-2 col-sm-2 col-xs-2">
+	<div id="now-open" class="col-md-2 col-sm-3 col-xs-4">
 		<img src="indeximages/now-open.png" class="img-responsive"/>
 	</div>
-	<div class="col-md-8">
+	<div class="col-md-9 col-xs-12">
 		<div class="text-1 text-center col-md-12"> 
 			Me&Music.
 			 <hr style='width:60px;border-top: 1px solid;'>
@@ -128,10 +127,10 @@
 
 <div id="content-4" class="row">
 
-	<div class="col-sm-6 col-md-6 cont4-img-div">
+	<div class="col-md-6 cont4-img-div">
 		<img class="img-responsive" src = "indeximages/centreImg.jpg"/>
 	</div>
-	<div class="col-md-5 col-sm-5 cont4Txt">
+	<div class="col-md-5 cont4Txt">
 		<div class="content4-text1">
 		    <div class="text-2">CLASS SPOTLIGHT</div>
 		    <div class = "text-1">M.Power Barre.</div>
@@ -177,7 +176,7 @@
 	    </div>
 	    <div class ="content5-text-6" >
 	    	<span class="learn-more-text">SEE ALL CLASSES</span>
-			<a href="#" class="learn-more"></a>
+			<a href="#" class="all-classes"></a>
 	    </div>
     </div>
 	<div class="col-sm-5 cont5-img-div">
@@ -196,49 +195,45 @@
 		<div class="text-2">Join our email list to get <strong>your first 10 days free.</strong></div>
 		
 		<form action="#" method="post">
-			<div class="input-group">
-			   <input type="text" class="form-control" placeholder="ENTER YOUR EMAIL">
-			   <span class="input-group-btn">
-			     <input type="submit" name="Submit" placeholder="SUBMIT" class="btn btn-default" />
-			   </span>
+			<div class="">
+			   <input type="text" class="email-text" placeholder="ENTER YOUR EMAIL" />
+			   <div class="email-submit">
+			     <input type="submit" name="Submit" placeholder="SUBMIT" class="email-btn">
+			   </div>
 			 </div>
 		</form>
 		
-		
-		
-		
-		<div class="" style="
-    height: 60px;
-">
-			   <input type="text" class="" placeholder="ENTER YOUR EMAIL" style="
-    height: 50px;
-    width: 50%;
-    border: 1px solid black;
-    padding: 5px 0px;
-    border-right: none;
-">
-			   <div class="" style="
-    padding: 4px 0px;
-    display: inline-block;
-    border: 1px solid black;
-    background-color: white;
-    border-left: none;
-    margin-left: -4px;
-">
-			     <input type="submit" name="Submit" placeholder="SUBMIT" class="" style="
-    height: 40px;
-    margin-left: 4px;
-    background: white;
-    border: none;
-    border-left: 1px solid black;
-">
-			   </div>
-			 </div>
-		
-		
-		
 	</div>
 </div>
+<div id = "content-8" class="row"> 
+	<a href="#" class="music-logo"></a>
+</div>
+
+
+
+<!-- footer -->
+<footer>
+	<div id = "content-9" class="row">
+		<div class = "text-center col-md-6 footer-left">
+			INSPIRING ME&MUSIC
+		</div>
+		<div class = "col-md-5">
+		
+			<nav class="navbar">
+			
+				<ul class="nav nav-pills">
+					<li class="" id=""><a class="grayFont" href="#">Privacy Policy</a>
+					</li>
+					<li class="" id=""><a class="grayFont" href="#">Terms of Service</a>
+					</li>
+					<li class="" id=""><a class="grayFont" href="#">Feedback</a>
+					</li>
+					
+				</ul>
+			</nav>
+		</div>
+	</div>	
+</footer>
 
 </div>
 </body>
