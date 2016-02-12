@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,9 +18,8 @@
 
 <body style="background-color: beige">
 	<div class="full-page container-fluid">
-<div id = "page-menu" class="row">
-
-		<div id="socialNav" class="col-md-3">
+		<div id = "page-menu" class="row">
+			<div id="socialNav" class="col-md-3">
 			<nav class="navbar">
 				<div class="social-icons">
 				
