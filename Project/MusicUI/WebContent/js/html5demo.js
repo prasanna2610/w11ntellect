@@ -15,23 +15,23 @@ $(document).ready(function(){
 	);
 	startSlider();
 	//Menu bar My try
-	$(".mainListSec").show();
-	$(".mainListSec").siblings().hide();
-	$(".menuSectionCont a").on('click',function(){
+	$("#main-list").hide();
+	$("#about-list").show();
+	
+	$("#menu-icon li").on('click',function(){
 		var temp=false;
 		if($(this).hasClass('horzontalBarImage')){
 			temp=true;
 			$(this).removeClass("horzontalBarImage");
 			$(this).addClass("closeImage");
-			$("ul.subMenu").hide();
-			$(".mainListSec").siblings().show();
-			//$(this).siblings().show();
+			$("#main-list").show();
+			$("#about-list").hide();
 		}
 		else if($(this).hasClass('closeImage')&& temp==false){
 			$(this).removeClass("closeImage");
 			$(this).addClass("horzontalBarImage");
-			$("ul.subMenu").show();
-			$(".mainListSec").siblings().hide();
+			$("#main-list").hide();
+			$("#about-list").show();
 		}
 	});
 });

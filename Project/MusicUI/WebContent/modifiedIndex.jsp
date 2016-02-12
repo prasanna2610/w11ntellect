@@ -42,41 +42,41 @@
 			<nav>
 				
 				<ul class="nav nav-pills">
-					<li class="col-md-3 text-center"  role="presentation"><a href="#">About</a>
+					<li class="col-md-3 text-center"><a href="#">About</a>
 					</li>
-					<li class="col-md-3 text-center" role="presentation"><a href="#">Classes</a>
+					<li class="col-md-3 text-center"><a href="#">Classes</a>
 					</li>
-					<li class="col-md-3 text-center" role="presentation"><a href="#">Contact</a>
+					<li class="col-md-3 text-center"><a href="#">Contact</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 		<div class = "col-md-3">
 		<div id="ready-music" class="text-right register-font">
-			  <span>READY TO EXPERIENCE ME & MUSIC ?</span>
+			  <span>READY TO EXPERIENCE ME &amp; MUSIC ?</span>
 		</div>
 		</div>
 </div>
 <div id = "content-1" class="row">
 	<div id="me-music" class = "col-md-12">
-		ME & MUSIC
+		ME &amp; MUSIC
 	</div>
 </div>
 
 <div id="content-2" class = "row">
 		<div id="slide" class="col-sm-7">
-			<figure >
+			<figure class="backgrnd-img" >
 				<img id="1" src="indeximages/aboutpageimg.jpg"
-					class="img-responsive">
+					class="img-responsive "/>
 				<img id="2" src="indeximages/classpageimg.jpg"
-					class="img-responsive"'>
-				<img id="3" src="indeximages/menu.jpg" class="img-responsive">
+					class="img-responsive"/>
+				<img id="3" src="indeximages/menu.jpg" class="img-responsive"/>
 			</figure>
 		</div>
 		<div id="slide-text" class="col-sm-5">
 			<div id="slider1" class="col-xs-9">
 				<div id="1">
-					<div>We're open! come in & get your first 10 days free</div>
+					<div>We're open! come in &amp; get your first 10 days free</div>
 					<span><a href="#">Learn More</a></span>
 				</div>
 				<div id="2" style="display:none">
@@ -104,11 +104,11 @@
 	</div>
 	<div class="col-md-9 col-xs-12">
 		<div class="text-1 text-center col-md-12"> 
-			Me&Music.
+			Me&amp;Music.
 			 <hr style='width:60px;border-top: 1px solid;'>
 		</div>	
     	<div class ="text-2 text-center col-md-12">
-    		Me&Music offers music classes, entertaining live music and unplugged songs, live audience play and a memorable experience.
+    		Me&amp;Music offers music classes, entertaining live music and unplugged songs, live audience play and a memorable experience.
     	</div>
    
 	    <div id ="text-3" class="col-md-12 text-center">
@@ -134,7 +134,7 @@
 		    <hr style='line-height:6.0;margin-right:70%;width:30%;border-top: 1px solid black;padding-bottom:5%'>
 	    </div>
 	    <div class="text-2">
-	    	Provides training for Piano, Guitar, Drums, Tabla, Violin and so on. This is an all levels class, beginners are always welcome.</h5>
+	    	Provides training for Piano, Guitar, Drums, Tabla, Violin and so on. This is an all levels class, beginners are always welcome.
 	    </div>
 	    <div class ="content4-text-3" >
 	    	<span class="learn-more-text">LEARN MORE</span>
@@ -152,21 +152,21 @@
 	    </div>
 	    <div class="content5-row">
 	    	<div class="inlineBlockTxt cont5Txt">
-	    		<div>Me&Music 2</div>
+	    		<div>Me&amp;Music 2</div>
 		    	<div class = "grayFont">KEITH DUCKWORTH</div>
 	    	</div> 
 	    	<div class="inlineBlockTxt text-center">5:00pm-6:00pm</div>
 	    </div>
 	    <div class="content5-row">
 	    	<div class="inlineBlockTxt cont5Txt">
-	    		<div>Me&Music Barre</div>
+	    		<div>Me&amp;Music Barre</div>
 		    	<div class = "grayFont">KRISTINA WILLIAMS</div>
 	    	</div> 
 	    	<div class="inlineBlockTxt text-center">5:30pm-6:30pm</div>
 	    </div>
 	    <div class="content5-row">
 	    	<div class="cont5Txt inlineBlockTxt">
-		    	<div>Me&Music 2</div>
+		    	<div>Me&amp;Music 2</div>
 		    	<div class = "grayFont">JASON HERO</div>
 	    	</div> 
 	    	<div class="inlineBlockTxt text-center">6:30pm-7:30pm</div>
@@ -188,7 +188,7 @@
 
 <div id ="content-7" class="row">
 	<div class="col-md-5 pull-right">
-		<div class="text-1">Join Me&Music.</div>
+		<div class="text-1">Join Me&amp;Music.</div>
 		<div class="text-2">Join our email list to get <strong>your first 10 days free.</strong></div>
 		
 		<form action="#" method="post">
@@ -212,7 +212,7 @@
 <footer>
 	<div id = "content-9" class="row">
 		<div class = "text-center col-md-6 footer-left">
-			INSPIRING ME&MUSIC
+			INSPIRING ME&amp;MUSIC
 		</div>
 		<div class = "col-md-5">
 		

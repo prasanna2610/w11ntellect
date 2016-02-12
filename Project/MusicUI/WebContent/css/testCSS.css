@@ -6,6 +6,148 @@ body {
 	font-family: verdana;
 } 
 
+/*About page section*/
+#menu-icon{
+	padding: 0;
+}
+#about-menu{
+	padding-top : 5%;
+}
+
+#about-image img{
+	height: 100%;
+}
+.foundn-img{
+	background: url("../Images/sprite.png");
+    width: 32px;
+    height: 33px;
+    background-position: -91px -83px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.foundn-img:hover{
+	background-position: -91px -45px;
+}
+
+.line{
+	height: 1px;
+    border-top: 1px solid;
+}
+
+#about-content-2{
+	padding-top: 20%;
+}
+#about-content-3{
+	height: 400px;
+}
+#about-carousel{
+	height: 300px;
+}
+#about-content-4, #about-content-6, #about-content-7{
+	margin-top: 1em;
+}
+#about-carousel img{
+	width: 100%;
+	height: 400px;
+}
+
+.found-text2{
+	width: 100%;
+	padding: 0 20%;
+}
+
+.found-img2{
+	background : url("../Images/foundation2.jpg");
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;	
+}
+
+.found-img3{
+	background : url("../Images/foundation6.jpg");
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 115%;	
+}
+
+.found-text2 {
+	width: 100%;
+	height: 100%;
+	background: #FFFF99;
+	opacity: 0;
+}
+
+.found-img2:hover .found-text2, .found-img3:hover .found-text2 {
+	opacity: 0.6;
+	text-align: justify;
+	color: #000000;
+	font-family: Century Gothic, Arial, sans-serif;
+	
+}
+
+.found-img2:hover .found-text3, .found-img3:hover .found-text3{
+	display: none;
+}
+
+.bold{
+	font-weight: bold;
+}
+#about-carousel h2{
+	font-family: Century Gothic, Arial, sans-serif;
+	color: white ;
+	font-size: 300%
+}
+#about-carousel h3{
+	font-family: Century Gothic, Arial, sans-serif;
+	color: #585858 ;
+	font-size: 300%
+}
+
+#leftCarousel, #rightCarousel{
+	height: 400px;
+}
+
+.aboutCont5Txt1{
+	margin: 0 0 8% 0;
+}
+.back-top{
+	display: inline-block;
+	background: url("../Images/sprite.png");
+    width: 32px;
+    height: 33px;
+    background-position: -169px -83px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.back-top:hover{
+	background-position: -169px -45px;
+}
+
+#about-content-6{
+	height: 500px;
+}
+
+.abt-cont6-img-div{
+	height: 100%;
+	width: 100%;
+}
+
+.abt-cont6-img-div img{
+	width : 100%;
+	height: 100%;
+}
+
+.abt-cont6-txt{
+	margin-left: 2%;
+	background-color: #f5de00;
+	height: 100%;
+	width: 100%
+}
+
 /* ClassList Section */
 .classListCont{
 	padding:5%;
@@ -295,8 +437,8 @@ body {
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
-   	padding-top: 16px;
-    margin-left: 24px;
+	margin-bottom: 10%;
+    margin-left: 15%;
 }
 .dotDivImg{
 	background: url("../Images/dotIcon2.png");
@@ -311,8 +453,8 @@ body {
     width: 30px;
     height: 30px;
     background-position: -1586px -77px;
-    padding-top: 22px;
-    margin-left: 20px;
+    margin-bottom: 15%;
+    margin-left: 15%;
 }
 ul.subMenu li,ul.listHolder li{
 	list-style-type: none;
@@ -451,11 +593,11 @@ font-size:300%;
 	padding-top: 20%;
 }
 
-#slide{
+#slide, #about-image{
 	position: initial;
 }
 
-#slide > figure > img{
+.backgrnd-img > img {
 	position:absolute;
 	top:0px;
 	left:0px;
@@ -531,6 +673,10 @@ font-size:300%;
 #content-3{
 	margin-top:5%;
 }
+.text-3{
+	font-family: Century Gothic, Arial, sans-serif;
+	font-size: 100%;
+}
 .text-2{
 	font-family: Century Gothic, Arial, sans-serif;
 	font-size: 150%;
@@ -603,7 +749,7 @@ font-size:300%;
 
 .cont4-img-div img{
 	width : 100%;
-	height; 100%;
+	height: 100%;
 }
 
 
@@ -695,13 +841,13 @@ font-size:300%;
     margin-bottom : 5%
 }
 
-#content-8{	
+#content-8, #about-content-9{	
 	padding-top: 3%;
 	border-bottom : 1px solid #686868;
 	width: 100%;	
 }
 
-#content-9{
+#content-9, #about-content-10{
 	padding-top: 3%;
 	font-weight: bold;
 }
