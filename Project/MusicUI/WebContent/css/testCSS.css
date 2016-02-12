@@ -42,9 +42,7 @@ body {
 #about-content-3{
 	height: 400px;
 }
-#about-carousel{
-	height: 300px;
-}
+
 #about-content-4, #about-content-6, #about-content-7{
 	margin-top: 1em;
 }
@@ -63,6 +61,7 @@ body {
 	width: 100%;
 	height: 400px;
 	background-repeat: no-repeat;	
+	background-size: 100%;	
 }
 
 .found-img3{
@@ -147,6 +146,7 @@ body {
 	height: 100%;
 	width: 100%
 }
+
 
 /* ClassList Section */
 .classListCont{
@@ -437,8 +437,8 @@ body {
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
-	margin-bottom: 10%;
-    margin-left: 15%;
+	margin-bottom: 1em;
+    margin-left: 1em;
 }
 .dotDivImg{
 	background: url("../Images/dotIcon2.png");
@@ -453,8 +453,8 @@ body {
     width: 30px;
     height: 30px;
     background-position: -1586px -77px;
-    margin-bottom: 15%;
-    margin-left: 15%;
+    margin-bottom: 1.5em;
+    margin-left: 1em;
 }
 ul.subMenu li,ul.listHolder li{
 	list-style-type: none;
@@ -568,11 +568,11 @@ ul.subMenu li,ul.listHolder li{
 	font-size: 100%;
 	padding-top: 3%; 
 }
-#ready-music span{
+#ready-music span, #about-pg-ready-music span{
 	border-bottom: 2px solid #999933;
 }
 
-#ready-music{
+#ready-music, #about-pg-ready-music{
     position: fixed;
     right: 5%;
     z-index: 1;
@@ -886,7 +886,7 @@ font-size:300%;
 		padding: 0;
 		margin : 0;
 	}
-	#ready-music{
+	#ready-music, #about-pg-ready-music{
 		top : 8%
 	}
 	#me-music{
@@ -904,11 +904,11 @@ font-size:300%;
 	#content-3 {
 	    margin-top: -1em;
 	}
-	#content-4 {
+	#content-4, #about-content-6 {
 	    margin: 2em 0;
 	    height: auto;
 	}
-	.cont4Txt {
+	.cont4Txt, .abt-cont6-txt {
 	    margin: 2% 0;
 	}
 	#content-6{
@@ -922,6 +922,19 @@ font-size:300%;
 	.footer-right{
 		float: left;
 	}
+	.content5-title{
+		font-size : 250%;
+	}
+	.text-2{
+		font-size: 125%;
+	}
+	#leftCarousel, #rightCarousel{
+		height: 800px;
+	}
+	#about-content-3{
+		height: 800px;
+	}
+	
 }
 	
 	
@@ -951,6 +964,11 @@ font-size:300%;
 	#ready-music{
 		top : 8%
 	}
+	
+	#about-pg-ready-music{
+		top: 15%;
+	}
+	
 	#me-music{
 		font-size: 200%;
 	    padding-top: 2em;
@@ -965,16 +983,64 @@ font-size:300%;
 	    margin-top: 2em;
 	}
 	
-	#content-4 {
+	#content-4, #about-content-6 {
 	    margin: 2em 0;
 	    height: auto;
 	}
-	.cont4Txt {
+	.cont4Txt, .abt-cont6-txt {
 	    margin: 2% 0;
 	}
 	#content-6{
 	    margin-top: 1em;
 	}
+	.sub-list-about{
+		text-align: center;
+		width: 100%;
+	}
+	.content5-title{
+		font-size : 200%;
+	}
+	.text-2{
+		font-size: 100%;
+	}
+	#about-content-3{
+		height: 600px;
+	}
+	#about-carousel img{
+	width: 100%;
+	height: 300px;
+	}
+
+	.found-img2{
+		background : url("../Images/foundation2.jpg");
+		width: 100%;
+		height: 300px;
+		background-repeat: no-repeat;	
+		background-size: 100%;	
+	}
+	
+	.found-img3{
+		background : url("../Images/foundation6.jpg");
+		width: 100%;
+		height: 300px;
+		background-repeat: no-repeat;
+		background-size: 150%;	
+	}
+	#about-carousel h2{
+		font-family: Century Gothic, Arial, sans-serif;
+		color: white ;
+		font-size: 200%
+	}
+	#about-carousel h3{
+		font-family: Century Gothic, Arial, sans-serif;
+		color: #585858 ;
+		font-size: 200%
+	}
+	
+	#leftCarousel, #rightCarousel{
+		height: 600px;
+	}
+
 	
 }
 

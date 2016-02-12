@@ -103,9 +103,9 @@
 		<img src="indeximages/now-open.png" class="img-responsive"/>
 	</div>
 	<div class="col-md-9 col-xs-12">
-		<div class="text-1 text-center col-md-12"> 
-			Me&amp;Music.
-			 <hr style='width:60px;border-top: 1px solid;'>
+		<div class="col-md-12 col-xs-12"> 
+			<div class="text-1 text-center">Me&amp;Music.</div>
+			<div class="col-md-5 col-xs-5"></div><div class="line col-md-2 col-xs-2"></div><div class="col-md-5 col-xs-5"></div>
 		</div>	
     	<div class ="text-2 text-center col-md-12">
     		Me&amp;Music offers music classes, entertaining live music and unplugged songs, live audience play and a memorable experience.
@@ -131,7 +131,7 @@
 		<div class="content4-text1">
 		    <div class="text-2">CLASS SPOTLIGHT</div>
 		    <div class = "text-1">M.Power Barre.</div>
-		    <hr style='line-height:6.0;margin-right:70%;width:30%;border-top: 1px solid black;padding-bottom:5%'>
+		    <div class="line col-md-3 col-xs-3"></div>
 	    </div>
 	    <div class="text-2">
 	    	Provides training for Piano, Guitar, Drums, Tabla, Violin and so on. This is an all levels class, beginners are always welcome.

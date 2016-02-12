@@ -15,10 +15,10 @@
 <title>MusicUI</title>
 
 </head>
-<body bgcolor="lavender">
+<body style="background-color: beige">
 	<div class="full-page container-fluid">
 		<header class = "row">
-				<div class="col-md-2 menuImgCont">
+				<div class="col-md-2 col-xs-8 menuImgCont">
 					<nav class="navbar">
 						<ul id="menu-icon" class="">
 							<li class="menuIconImage" id=""><a href="#"></a></li>
@@ -34,7 +34,7 @@
 							<li  class=""><a href="#">Contact</a></li>
 						</ul>
 						<ul id="about-list" class="nav nav-pills">
-							<li><a class="aboutList" href="#">About</a></li>
+							<li class="sub-list-about"><a href="#">About</a></li>
 							<li class=""></li>
 							<li><a href="#">Foundation</a></li>
 							<li><a href="#">Team</a></li>
@@ -42,8 +42,8 @@
 						</ul>
 					</nav>
 				 </div>
-				 <div class = "col-md-3">
-					<div id="ready-music" class="text-right register-font">
+				 <div id = "" class = "col-md-3">
+					<div id="about-pg-ready-music" class="text-right register-font">
 						  <span>READY TO EXPERIENCE ME &amp; MUSIC ?</span>
 					</div>
 				</div>
@@ -221,10 +221,10 @@
 		</section>
 		
 		<section id="about-content-7" class="row">
-			<img src="indeximages/bottomImg.jpg" class="img-responsive" />
+			<img src="Images/bottomImg.jpg" class="img-responsive" />
 		</section>
 		
-		<div id ="about-content-8" class="row">
+		<section id ="about-content-8" class="row">
 			<div class="col-md-5 pull-right">
 				<div class="text-1">Join Me&amp;Music.</div>
 				<div class="text-2">Join our email list to get <strong>your first 10 days free.</strong></div>
@@ -239,16 +239,15 @@
 				</form>
 				
 			</div>
-		</div>
-		<div id = "about-content-9" class="row"> 
+		</section>
+		<section id = "about-content-9" class="row"> 
 			<a href="#" class="music-logo"></a>
-		</div>
+		</section>
 		
 		
 		
 		<!-- footer -->
-		<footer>
-			<div id = "about-content-10" class="row">
+		<footer id = "about-content-10" class="row">
 				<div class = "text-center col-md-6 footer-left">
 					INSPIRING ME&amp;MUSIC
 				</div>
@@ -267,7 +266,6 @@
 						</ul>
 					</nav>
 				</div>
-			</div>	
 		</footer>
 		
 		</div>
