@@ -3,16 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="css/testCSS.css" />
-<link rel="stylesheet" href="css/bootstrap-css/bootstrap.css" />
-<script
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
-<script type="text/javascript"
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap-js/bootstrap.min.js"></script>
-<script src="js/html5demo.js"></script>
 
-<title>MusicUI</title>
+<link rel="stylesheet" href="css/musicStyle.css" />
+<link rel="stylesheet" href="css/bootstrap-css/bootstrap.css" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap-js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/musicScript.js"></script>
+
+<title>About - Music and Me</title>
 
 </head>
 <body style="background-color: beige">
@@ -30,7 +29,7 @@
 					<nav id = "about-menu">
 						<ul id="main-list" class="nav nav-pills">
 							<li class=""><a class="aboutList" href="#">About</a></li>
-							<li  class=""><a href="classes.jsp">Classes</a></li>
+							<li  class=""><a href="classesInfo.jsp">Classes</a></li>
 							<li  class=""><a href="#">Contact</a></li>
 						</ul>
 						<ul id="about-list" class="nav nav-pills">

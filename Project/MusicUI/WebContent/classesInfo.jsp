@@ -1,16 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
 
-<link rel="stylesheet" type="text/css" href="css/testCSS.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="js/html5demo.js"></script>
+<link rel="stylesheet" href="css/musicStyle.css" />
+<link rel="stylesheet" href="css/bootstrap-css/bootstrap.css" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap-js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/musicScript.js"></script>
 <script type="text/javascript" src="js/date.js"></script>
-<script type="text/javascript" src="js/schedule.js"></script>
+<script type="text/javascript" src="js/scheduleScript.js"></script>
+
+<title>Classes - Music and Me</title>
 
 </head>
 <body>
@@ -21,9 +24,9 @@
 	</div>
 	<div class="navMenuItems">
 	<ul class="listHolder">
-		<li class="mainHeaders"><a href="about.jsp">About</a></li>
+		<li class="mainHeaders"><a href="aboutMusic.jsp">About</a></li>
 		<li class="mainListSec mainHeaders">
-			<a class="aboutList" href="classes.jsp">Classes</a>
+			<a class="aboutList" href="classesInfo.jsp">Classes</a>
 			<ul class="subMenu">
 				<li class="dotDivImg"></li>
 				<li><a href="#">Schedule</a></li>
