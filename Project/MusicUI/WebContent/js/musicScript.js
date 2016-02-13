@@ -5,6 +5,16 @@ $(document).ready(function(){
 	$("#slide > figure > img#"+sliderInt).fadeIn(300);
 	count=$("#slider1 > div").size();
 	pagination(sliderInt,count);
+	sliderInitilizer();
+	startSlider();
+	$("#main-list").hide();
+	$("#about-list").show();
+	menuIconChange();
+	meterValueUpdate();
+	populateRegSelectOptions();
+});
+function sliderInitilizer(){
+	
 	$("#slider1 > div").hover(
 		function(){
 		stopLoop();
@@ -13,11 +23,29 @@ $(document).ready(function(){
 			startSlider();
 		}	
 	);
-	startSlider();
-	//Menu bar My try
-	$("#main-list").hide();
-	$("#about-list").show();
-	
+}
+function populateRegSelectOptions(){
+	var monthList = getMonthList();
+	var i,size = monthList.length;
+	for(i=0; i<size; i++){
+		$("#dob-monthSelect").append("<option value='"+monthList[i]+"'>"+monthList[i]+"</option>")
+	}
+}
+function getMonthList(){
+	return ["January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"Auguest",
+			"September",
+			"October",
+			"November",
+			"December"];
+}
+function menuIconChange(){
 	$("#menu-icon li").on('click',function(){
 		var temp=false;
 		if($(this).hasClass('horzontalBarImage')){
@@ -34,7 +62,14 @@ $(document).ready(function(){
 			$("#about-list").show();
 		}
 	});
-});
+}
+
+function meterValueUpdate(){
+	$("input[type='password']").keypress(function(e) {
+        theLength = $(this).val().length;
+        $('#password-strength-meter').val(theLength);
+    });
+}
 
 function startSlider(){
 	loop=setInterval(function(){
@@ -63,9 +98,11 @@ function next(){
 	newSlide = sliderInt+1;
 	showSlide(newSlide);
 }
+
 function stopLoop(){
 	window.clearInterval(loop);
 }
+
 function showSlide(id){
 	stopLoop();
 	if(id > count){
@@ -84,9 +121,8 @@ function showSlide(id){
 	startSlider();
 
 }
+
 function pagination(startVal,endVal){
 	strTxt=startVal+"/"+endVal;	
 	$("#paginationCont").text(strTxt);
 }
-	
-

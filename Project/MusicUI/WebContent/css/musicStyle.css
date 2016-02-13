@@ -1,5 +1,11 @@
 @CHARSET "ISO-8859-1";
 /*Register Page*/
+.password-container span{
+	display:block;	
+}
+.password-container span:nth-child(2){
+	margin-left:50%;
+}
 @font-face{
 font-family:myFirstFont;
 src:url("fonts/Roboto-Black.ttf");
@@ -13,28 +19,27 @@ input.button{
 
 .regImage{
 background-image:url("../indeximages/registrationpageimg.jpg");
+padding-top:10px;
 }
 
 .container.Reg{
     background: #f1f1f1;
 	padding-left: 50px;
 	padding-top: 20px;
-	width:40%;
 }
 .row.Reg{
 	width:80%;
 }
 
- #day,#year{
- width:60px;
- }
-
+#day,#year{
+ 	width:60px;
+}
 
 #password,#repassword{
 width:40%;
 }
 
-#Birthday{
+#dob-monthSelect{
 width:50%;
 }
 
@@ -73,6 +78,9 @@ body {
 	padding: 0px;
 	font-family: verdana;
 } 
+.clearBoth{
+	clear: both;
+}
 
 /*About page section*/
 div#about-pg-ready-music a:hover {
