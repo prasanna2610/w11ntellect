@@ -1,4 +1,4 @@
-@CHARSET "ISO-8859-1";
+@CHARSET "UTF-8";
 /*Register Page*/
 .password-container span{
 	display:block;	
@@ -83,6 +83,12 @@ body {
 }
 
 /*About page section*/
+.bullet:before {
+    content: "\2022"; 
+    font-size: 2em;
+	vertical-align: middle;
+	background-color: none;
+}
 div#about-pg-ready-music a:hover {
     text-decoration: none;
     color:black;
@@ -130,7 +136,7 @@ div#about-pg-ready-music a {
 	height: 400px;
 }
 
-#about-content-4, #about-content-6, #about-content-7{
+#about-content-4, #about-content-6, #about-content-7, #classes-content-3{
 	margin-top: 1em;
 }
 #about-carousel img{
@@ -212,9 +218,14 @@ div#about-pg-ready-music a {
 .back-top:hover{
 	background-position: -169px -45px;
 }
+#about-content-11{
+	padding : 0 2%;
+	background-color: #F8F8F8;
+}
 
 #about-content-6{
 	height: 500px;
+	background-color: #F0F0F0;
 }
 
 .abt-cont6-img-div{
@@ -263,13 +274,13 @@ div#about-pg-ready-music a {
 	padding-top:10%;
 }
 .frstClm{
-	width:30%;
-	float:left;
+	/* width:30%;
+	float:left; */
 	border-bottom:solid 1px #CCCCCC;
 }
 .secndClm{
-	width:65%;
-	float:left;
+	/* width:65%;
+	float:left; */
 	border-bottom:solid 1px #CCCCCC;
 	margin-left:3%;
 	line-height:2em;
@@ -453,7 +464,7 @@ div#about-pg-ready-music a {
 }
 
 .dayHeader li {
-	height: 2.25em;
+	/* height: 2.25em; */
     padding-top: 1.25em;
 }
 
@@ -462,7 +473,7 @@ div#about-pg-ready-music a {
 }
 
 .dayListSchList li {
-	height: 2em;
+	/* height: 2em; */
     padding-top: 1em;
 }
 
@@ -931,13 +942,13 @@ font-size:300%;
     margin-bottom : 5%
 }
 
-#content-8, #about-content-9{	
+#content-8, #about-content-9, #classes-content-5{	
 	padding-top: 3%;
 	border-bottom : 1px solid #686868;
 	width: 100%;	
 }
 
-#content-9, #about-content-10{
+#content-9, #about-content-10, #classes-content-6{
 	padding-top: 3%;
 	font-weight: bold;
 }

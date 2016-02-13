@@ -9,6 +9,7 @@ $(document).ready(function(){
 	startSlider();
 	$("#main-list").hide();
 	$("#about-list").show();
+	$("#class-list").show();
 	menuIconChange();
 	meterValueUpdate();
 	populateRegSelectOptions();
@@ -54,11 +55,13 @@ function menuIconChange(){
 			$(this).addClass("closeImage");
 			$("#main-list").show();
 			$("#about-list").hide();
+			$("#class-list").hide();
 		}
 		else if($(this).hasClass('closeImage')&& temp==false){
 			$(this).removeClass("closeImage");
 			$(this).addClass("horzontalBarImage");
 			$("#main-list").hide();
+			$("#class-list").show();
 			$("#about-list").show();
 		}
 	});

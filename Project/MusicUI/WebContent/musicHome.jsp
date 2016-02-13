@@ -41,9 +41,9 @@
 			<nav>
 				
 				<ul class="nav nav-pills">
-					<li class="col-md-3 text-center"><a href="#">About</a>
+					<li class="col-md-3 text-center"><a href="aboutMusic.jsp">About</a>
 					</li>
-					<li class="col-md-3 text-center"><a href="#">Classes</a>
+					<li class="col-md-3 text-center"><a href="classesInfo.jsp">Classes</a>
 					</li>
 					<li class="col-md-3 text-center"><a href="#">Contact</a>
 					</li>

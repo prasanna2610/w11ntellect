@@ -35,7 +35,7 @@
 						</ul>
 						<ul id="about-list" class="nav nav-pills">
 							<li class="sub-list-about"><a href="#">About</a></li>
-							<li></li>
+							<li class="bullet"></li>
 							<li><a href="#about-ourFoundations">Foundation</a></li>
 							<li><a href="#about-content-5">Team</a></li>
 							<li><a href="#about-content-6">About</a></li>
@@ -166,19 +166,31 @@
 			<section id="about-content-4" class="row">
 				<img src="Images/middleImg.jpg" class="img-responsive" />
 			</section>
-			<section id="about-content-5" class="row">
+			<section id="about-content-11" class="row">
 				<div class="text-1 col-md-12 col-xs-12 text-center">
 				Leadership.			
 				</div>
 				<div class="col-md-12">
 				<article class="col-md-4">
 					<img src="Images/leon_james.jpg" class="img-circle img-responsive"/>
+					<div class = "text-center">
+						<div class="bold">LEON JAMES</div>
+						<div>Music Instructor</div>
+					</div>
 				</article>
 				<article class="col-md-4">
 					<img src="Images/hiphop_tamizha.jpg" class="img-circle img-responsive"/>
+				<div class = "text-center">
+					<div class="bold">HIPHOP TAMIZHA</div>
+					<div>Music Band Organiser</div>
+				</div>
 				</article>
 				<article class="col-md-4">
 					<img src="Images/san_narayanan.jpg" class="img-circle img-responsive"/>
+				<div class = "text-center">
+					<div class="bold">SANTHOSH NARAYANAN</div>
+					<div>Audio Instructor and Music Instructor</div>
+				</div>
 				</article>
 				</div>
 			</section>
