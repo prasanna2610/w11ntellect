@@ -75,6 +75,17 @@ body {
 } 
 
 /*About page section*/
+div#about-pg-ready-music a:hover {
+    text-decoration: none;
+    color:black;
+}
+div#about-pg-ready-music a {
+    text-decoration: none;
+    color:black;
+}
+#expMusicLink:hover #expMusicLinkText {
+	border-bottom: 2px solid #7A7E8A;
+}
 #menu-icon{
 	padding: 0;
 }
@@ -105,7 +116,7 @@ body {
 }
 
 #about-content-2{
-	padding-top: 20%;
+	padding-top: 40%;
 }
 #about-content-3{
 	height: 400px;
@@ -556,6 +567,9 @@ ul.subMenu li,ul.listHolder li{
 .menuImgCont{
 	padding-right:25px;
 }
+
+/* musicHome page */
+
 #socialNav{
 	background: none;
 	margin-top: 4%;
@@ -637,7 +651,7 @@ ul.subMenu li,ul.listHolder li{
 	padding-top: 3%; 
 }
 #ready-music span, #about-pg-ready-music span{
-	border-bottom: 2px solid #999933;
+	border-bottom: 2px solid yellow;
 }
 
 #ready-music, #about-pg-ready-music{
@@ -1108,7 +1122,5 @@ font-size:300%;
 	#leftCarousel, #rightCarousel{
 		height: 600px;
 	}
-
-	
 }
 
