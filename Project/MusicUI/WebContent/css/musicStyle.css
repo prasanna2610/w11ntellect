@@ -135,7 +135,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 	height: 100%;
 }
 .foundn-img{
-	background: url("../Images/sprite.png");
+	background: url("../Images/music_sprite.png");
     width: 32px;
     height: 33px;
     background-position: -91px -83px;
@@ -227,7 +227,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 .back-top{
 	display: inline-block;
-	background: url("../Images/sprite.png");
+	background: url("../Images/music_sprite.png");
     width: 32px;
     height: 33px;
     background-position: -169px -83px;
@@ -337,7 +337,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
     padding: 0.5em;
 }
 .feedback_img{
-	background-image: url(../Images/sprite.png);
+	background-image: url(../Images/music_sprite.png);
 	width: 36px;
     height: 36px;
     background-position-x: -217px;
@@ -381,7 +381,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 #toClassBut {
-	background-image: url(../Images/sprite.png);
+	background-image: url(../Images/music_sprite.png);
 	width: 36px;
     height: 36px;
     background-position-x: -95px;
@@ -516,7 +516,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 #showMoreBut {
-	background-image: url(../Images/sprite.png);
+	background-image: url(../Images/music_sprite.png);
     width: 1.5em;
     height: 1em;
     background-position-x: -603px;
@@ -526,7 +526,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 #showLessBut {
-	background-image: url(../Images/sprite.png);
+	background-image: url(../Images/music_sprite.png);
 	width: 1.5em;
 	height: 1em;
 	background-position-x: -644px;
@@ -553,7 +553,7 @@ header.headerMenuSection .container-fluid{
 }
 .menuIconImage{
 	display: inline-block;
-    background: url("../Images/sprite.png");
+    background: url("../Images/music_sprite.png");
     width: 74px;
     height: 75px;
     background-position: -1199px -8px;
@@ -576,7 +576,7 @@ header.headerMenuSection .container-fluid{
 }
 .closeImage{
 	display: inline-block;
-    background: url("../Images/sprite.png");
+    background: url("../Images/music_sprite.png");
     width: 30px;
     height: 30px;
     background-position: -1586px -77px;
@@ -642,7 +642,7 @@ ul.subMenu li,ul.listHolder li{
 }
 
 .social {
-	background-image: url('../Images/sprite.png');
+	background-image: url('../Images/music_sprite.png');
 	background-repeat: no-repeat;
 	height: 30px;
 	width: 30px;
@@ -769,14 +769,14 @@ font-size:300%;
 
 .left1{
 	display: block;
-	background: url("../Images/sprite.png");
+	background: url("../Images/music_sprite.png");
 	width: 28px;
 	height:30px;
 	background-position: -1467px -46px
 }
 .right1{
 	display: block;
-	background: url("../Images/sprite.png");
+	background: url("../Images/music_sprite.png");
 	width: 30px;
 	height: 30px;
 	background-position: -1488px -45px;
@@ -831,7 +831,7 @@ font-size:300%;
 
 .learn-more{
 	display: inline-block;
-	background: url("../Images/sprite.png");
+	background: url("../Images/music_sprite.png");
     width: 32px;
     height: 33px;
     background-position: -207px -83px;
@@ -846,7 +846,7 @@ font-size:300%;
 
 .all-classes{
 	display: inline-block;
-	background: url("../Images/sprite.png");
+	background: url("../Images/music_sprite.png");
     width: 32px;
     height: 33px;
     background-position: -169px -83px;
@@ -961,7 +961,7 @@ font-size:300%;
 }
 
 .music-logo{
-	background: url("../Images/sprite.png");
+	background: url("../Images/music_sprite.png");
     width: 60px;
     height: 62px;
     background-position: -261px -83px;
