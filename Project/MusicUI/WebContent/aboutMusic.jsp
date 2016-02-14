@@ -66,7 +66,7 @@
 				</article>
 				<div id="about-image" class="col-md-4">
 					<figure class="backgrnd-img">
-						<img src="Images/about-hero2.jpg"
+						<img src="Images/about_boyandguitar.jpg"
 							class="img-responsive"/>
 					</figure>
 				</div>
@@ -80,7 +80,7 @@
 						  <div class="carousel-inner" role="listbox">
 						    <div class="item active">
 						    	<div class="col-md-6">
-						    		<img class="img-responsive" src="Images/foundation1.jpg" alt="">
+						    		<img class="img-responsive" src="Images/about_guitar.jpg" alt="">
 									<div class="carousel-caption">
 									  <h2>1.</h2>
 									  <h3>Moxic</h3>
@@ -108,14 +108,14 @@
 						    </div>
 						    <div class="item">
 						      <div class="col-md-6">
-						    		<img class="img-responsive" src="Images/foundation3.jpg" alt="">
+						    		<img class="img-responsive" src="Images/about_sliderARRahman.jpg" alt="">
 									<div class="carousel-caption">
 									  <h2>3.</h2>
 									  <h3>Master of the moment.</h3>
 									</div>
 						    	</div>
 						    	<div class="col-md-6">
-						    		<img class="img-responsive" src="Images/foundation4.jpg" alt="">
+						    		<img class="img-responsive" src="Images/about_sliderGirlGuitar.jpg" alt="">
 									<div class="carousel-caption">
 									  <h2>4.</h2>
 									  <h3>Meaningful Connections</h3>
@@ -124,7 +124,7 @@
 						    </div>
 						    <div class="item">
 						    	<div class="col-md-6">
-						    		<img class="img-responsive" src="Images/foundation5.jpg" alt="">
+						    		<img class="img-responsive" src="Images/about_sliderGuitar.jpg" alt="">
 									<div class="carousel-caption">
 									  <h2>5.</h2>
 									  <h3>Making a Difference.</h3>
@@ -214,7 +214,7 @@
 			</section>
 			<section id="about-content-6" class="row">
 				<article class="col-md-6 abt-cont6-img-div">
-					<img class="img-responsive" src = "Images/arts.jpg"/>
+					<img class="img-responsive" src = "Images/about_playingguitar.jpg"/>
 				</article>
 				<article class="col-md-5 abt-cont6-txt">
 					<div>
@@ -232,7 +232,7 @@
 			</section>
 			
 			<section id="about-content-7" class="row">
-				<img src="Images/bottomImg.jpg" class="img-responsive" />
+				<img src="Images/about_playingKeyboard.jpg" class="img-responsive" />
 			</section>
 			
 			<section id ="about-content-8" class="row">

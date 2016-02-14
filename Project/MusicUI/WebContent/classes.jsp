@@ -223,7 +223,7 @@
 		</div>
 	
 		<div class="img">
-			<img src="Images/banner-05.jpg" id="img">
+			<img src="Images/classes_playingGuitar.jpg" id="img">
 		</div>
 		
 		<div class="email">

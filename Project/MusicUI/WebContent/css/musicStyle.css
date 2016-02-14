@@ -174,7 +174,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 .found-img2{
-	background : url("../Images/foundation2.jpg");
+	background : url("../Images/about_sliderZahirhussain.jpg");
 	width: 100%;
 	height: 400px;
 	background-repeat: no-repeat;	
@@ -182,7 +182,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 .found-img3{
-	background : url("../Images/foundation6.jpg");
+	background : url("../Images/about_sliderTwosticks.jpg");
 	width: 100%;
 	height: 400px;
 	background-repeat: no-repeat;
@@ -417,7 +417,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
     height: 5em;
     border: 2px solid #000000;
     font-size: 0.8em;
-    background-image: url(../Images/dropdown@2x.png);
+    background-image: url(../Images/classes_scheduleListImg.png);
     background-repeat: no-repeat;
     background-size: 3em;
     background-position-x: 101%;
@@ -568,7 +568,7 @@ header.headerMenuSection .container-fluid{
     margin-left: 1em;
 }
 .dotDivImg{
-	background: url("../Images/dotIcon2.png");
+	background: url("../Images/common_dotIcon.png");
     background-repeat: no-repeat;
     width: 30px;
     height: 18px;
@@ -1136,7 +1136,7 @@ font-size:300%;
 	}
 
 	.found-img2{
-		background : url("../Images/foundation2.jpg");
+		background : url("../Images/about_sliderZahirhussain.jpg");
 		width: 100%;
 		height: 300px;
 		background-repeat: no-repeat;	
@@ -1144,7 +1144,7 @@ font-size:300%;
 	}
 	
 	.found-img3{
-		background : url("../Images/foundation6.jpg");
+		background : url("../Images/about_sliderTwosticks.jpg");
 		width: 100%;
 		height: 300px;
 		background-repeat: no-repeat;

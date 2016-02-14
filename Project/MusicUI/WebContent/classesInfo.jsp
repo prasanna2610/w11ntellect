@@ -278,7 +278,7 @@
 			</div><!--
 		
 			<div class="img">
-				<img src="Images/banner-05.jpg" id="img">
+				<img src="Images/classes_playingGuitar.jpg" id="img">
 			</div>
 			
 			<div class="email">
@@ -296,7 +296,7 @@
 	
 	</section>
 	<section id="classes-content-3" class="row">
-			<img src="Images/banner-05.jpg" class="img-responsive" />
+			<img src="Images/classes_playingGuitar.jpg" class="img-responsive" />
 		</section>
 		
 		<section id ="classes-content-4" class="row">

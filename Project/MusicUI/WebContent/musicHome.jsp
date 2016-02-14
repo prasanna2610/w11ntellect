@@ -55,8 +55,8 @@
 			<div id="content-2" class = "row">
 				 <section id="slide" class="col-sm-7">
 					<figure class="backgrnd-img" >
-						<img id="1" src="Images/aboutpageimg.jpg"/>
-						<img id="2" src="Images/classpageimg.jpg"/>
+						<img id="1" src="Images/home_playingdrums.jpg"/>
+						<img id="2" src="Images/home_playingSaxophone.jpg"/>
 						<img id="3" src="Images/home_sliderPiano.jpg"/>
 					</figure>
 				</section> 
@@ -104,7 +104,7 @@
 
 			<div id="content-4" class="row">
 				<section class="col-md-6 cont4-img-div">
-					<img src = "Images/centreImg.jpg"/>
+					<img src = "Images/home_mic.jpg"/>
 				</section>
 				<section class="col-md-5 cont4Txt">
 					<div class="content4-text1">
@@ -159,7 +159,7 @@
 			</div>
 			
 			<div id="content-6" class="row">
-				<img src="Images/classroom.jpg"/>
+				<img src="Images/home_tablaBoys.jpg"/>
 			</div>
 
 			<section id ="content-7" class="row">
