@@ -57,7 +57,7 @@
 					<figure class="backgrnd-img" >
 						<img id="1" src="Images/aboutpageimg.jpg"/>
 						<img id="2" src="Images/classpageimg.jpg"/>
-						<img id="3" src="Images/menu.jpg"/>
+						<img id="3" src="Images/home_sliderPiano.jpg"/>
 					</figure>
 				</section> 
 				<section id="slide-text" class="col-sm-5">
@@ -85,7 +85,7 @@
 			
 			<div id = "content-3" class = "row">
 				<section id="now-open" class="col-md-2 col-sm-3 col-xs-4">
-					<img src="Images/now-open.png"/>
+					<img src="Images/home_open.png"/>
 				</section>
 				<section class="col-md-9 col-xs-12">
 					<div class="col-md-12 col-xs-12"> 
@@ -154,7 +154,7 @@
 	    			</div>
     			</article>
 				<div class="col-sm-5 cont5-img-div">
-					<img src="Images/upcoming-home.jpg"/>
+					<img src="Images/home_upcoming.jpg"/>
 				</div>
 			</div>
 			

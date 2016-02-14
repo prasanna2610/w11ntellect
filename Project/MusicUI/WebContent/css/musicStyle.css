@@ -18,7 +18,7 @@ input.button{
  }
 
 .regImage{
-background-image:url("../Images/registrationpageimg.jpg");
+background-image:url("../Images/register_main.jpg");
 padding-top:10px;
 }
 
@@ -560,7 +560,7 @@ header.headerMenuSection .container-fluid{
 }
 .horzontalBarImage{
 	display: inline-block;
-    background: url("../Images/NavBarIcon.png");
+    background: url("../Images/common_menu.png");
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;

@@ -164,7 +164,7 @@
 				</section>
 			</article>
 			<section id="about-content-4" class="row">
-				<img src="Images/middleImg.jpg" class="img-responsive" />
+				<img src="Images/about_foundBell.jpg" class="img-responsive" />
 			</section>
 			<section id="about-content-11" class="row">
 				<div class="text-1 col-md-12 col-xs-12 text-center">
@@ -172,21 +172,21 @@
 				</div>
 				<div class="col-md-12">
 				<article class="col-md-4">
-					<img src="Images/leon_james.jpg" class="img-circle img-responsive"/>
+					<img src="Images/about_leaderLeon.jpg" class="img-circle img-responsive"/>
 					<div class = "text-center">
 						<div class="bold">LEON JAMES</div>
 						<div>Music Instructor</div>
 					</div>
 				</article>
 				<article class="col-md-4">
-					<img src="Images/hiphop_tamizha.jpg" class="img-circle img-responsive"/>
+					<img src="Images/about_leaderHip.jpg" class="img-circle img-responsive"/>
 				<div class = "text-center">
 					<div class="bold">HIPHOP TAMIZHA</div>
 					<div>Music Band Organiser</div>
 				</div>
 				</article>
 				<article class="col-md-4">
-					<img src="Images/san_narayanan.jpg" class="img-circle img-responsive"/>
+					<img src="Images/about_leaderSan.jpg" class="img-circle img-responsive"/>
 				<div class = "text-center">
 					<div class="bold">SANTHOSH NARAYANAN</div>
 					<div>Audio Instructor and Music Instructor</div>
@@ -209,7 +209,7 @@
 						passion towards children to learn Music.</p>
 				</article>
 				<article class="col-md-4">
-					<img src="Images/teacher_spotlight.jpg" class="img-circle img-responsive"/>
+					<img src="Images/about_spotlight.jpg" class="img-circle img-responsive"/>
 				</article>
 			</section>
 			<section id="about-content-6" class="row">

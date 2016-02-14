@@ -65,7 +65,7 @@
 		</article>
 		<div id="about-image" class="col-md-4">
 			<figure class="backgrnd-img">
-				<img src="Images/sample5.jpg"
+				<img src="Images/classes_mike.jpg"
 					class="img-responsive"/>
 			</figure>
 		</div>
