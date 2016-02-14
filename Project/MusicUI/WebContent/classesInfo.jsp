@@ -22,8 +22,8 @@
 			<div class="col-md-2 col-xs-8 menuImgCont">
 				<nav class="navbar">
 					<ul id="menu-icon" class="">
-						<li class="menuIconImage" id=""><a href="#"></a></li>
-						<li class="horzontalBarImage"><a href="#"></a></li>
+						<li class="menuIconImage" id=""><a class="menuHomeLink" href="musicHome.jsp"></a></li>
+						<li class="horzontalBarImage"><a class="menuNavLink" href="#"></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -44,8 +44,8 @@
 				</nav>
 			 </div>
 			 <div id = "" class = "col-md-3">
-				<div id="about-pg-ready-music" class="text-right register-font">
-					  <span>READY TO EXPERIENCE ME &amp; MUSIC ?</span>
+				<div id="classes-pg-ready-music" class="text-right register-font">
+					  <a id="expMusicLink"href="register.jsp"><span id="expMusicLinkText">READY TO EXPERIENCE ME &amp; MUSIC ?</span></a>
 				</div>
 			</div>
 	</header>

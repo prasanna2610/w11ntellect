@@ -21,8 +21,8 @@
 				<div class="col-md-2 col-xs-8 menuImgCont">
 					<nav class="navbar">
 						<ul id="menu-icon" class="">
-							<li class="menuIconImage" id=""><a href="#"></a></li>
-							<li class="horzontalBarImage"><a href="#"></a></li>
+							<li class="menuIconImage" id=""><a class="menuHomeLink" href="musicHome.jsp"></a></li>
+							<li class="horzontalBarImage"><a class="menuNavLink" href="#"></a></li>
 						</ul>
 					</nav>
 				</div>

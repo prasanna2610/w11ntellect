@@ -52,7 +52,7 @@
 			</nav>
 		</div>
 		<div class="col-md-3">
-			<div id="about-pg-ready-music" class="text-right register-font">
+			<div id="musicHome-pg-ready-music" class="text-right register-font">
 				  <a id="expMusicLink"href="register.jsp"><span id="expMusicLinkText">READY TO EXPERIENCE ME &amp; MUSIC ?</span></a>
 			</div>
 		</div>

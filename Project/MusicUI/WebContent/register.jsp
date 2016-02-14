@@ -14,7 +14,7 @@
 		<div class="col-md-3 col-xs-2"></div>
 		<div class="container Reg col-md-6 col-xs-8">
 			<div class="row Reg center-block">
-				<form>
+				<form action="musicHome.jsp">
 					<section>
 						<div class="form-group">
 							<label for="name">Name</label>
