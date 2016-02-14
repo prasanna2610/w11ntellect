@@ -17,7 +17,7 @@
 <body style="background-color: beige">
 	<section class="full-page container-fluid">
 	<!-- header -->
-		<header class = "row">
+		<header class = "row headerMenuSection">
 				<div class="col-md-2 col-xs-8 menuImgCont">
 					<nav class="navbar">
 						<ul id="menu-icon" class="">
@@ -26,7 +26,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-md-6 navMenuItems container-fluid">
+				<div class="col-md-6 navMenuItems container-fluid menuLinksContainer">
 					<nav id = "about-menu">
 						<ul id="main-list" class="nav nav-pills">
 							<li><a class="aboutList" href="aboutMusic.jsp">About</a></li>
@@ -36,9 +36,9 @@
 						<ul id="about-list" class="nav nav-pills">
 							<li class="sub-list-about"><a href="#">About</a></li>
 							<li class="bullet"></li>
-							<li><a href="#about-ourFoundations">Foundation</a></li>
-							<li><a href="#about-content-5">Team</a></li>
-							<li><a href="#about-content-6">About</a></li>
+							<li><a class="menu-sub-List" href="#about-ourFoundations">Foundation</a></li>
+							<li><a class="menu-sub-List" href="#about-content-5">Team</a></li>
+							<li><a class="menu-sub-List" href="#about-content-6">About</a></li>
 						</ul>
 					</nav>
 				 </div>
@@ -252,7 +252,7 @@
 				</div>
 			</section>
 			<section id = "about-content-9" class="row"> 
-				<a href="#" class="music-logo"></a>
+				<a href="musicHome.jsp" class="music-logo"></a>
 			</section>
 		</main>
 		<!-- footer -->

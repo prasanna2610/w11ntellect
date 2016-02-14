@@ -18,7 +18,7 @@
 </head>
 <body style="background-color: beige">
 <section class="full-page container-fluid">
-	<header class = "row">
+	<header class = "row headerMenuSection">
 			<div class="col-md-2 col-xs-8 menuImgCont">
 				<nav class="navbar">
 					<ul id="menu-icon" class="">
@@ -27,7 +27,7 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="col-md-6 navMenuItems container-fluid">
+			<div class="col-md-6 navMenuItems container-fluid menuLinksContainer">
 				<nav id = "about-menu">
 					<ul id="main-list" class="nav nav-pills">
 						<li><a class="aboutList" href="aboutMusic.jsp">About</a></li>
@@ -37,9 +37,9 @@
 					<ul id="class-list" class="nav nav-pills">
 						<li class="sub-list-about"><a href="#">Classes</a></li>
 						<li class="bullet"></li>
-						<li><a href="#">Schedule</a></li>
-						<li><a href="#">Class List</a></li>
-						<li><a href="#">Register</a></li>
+						<li><a class="menu-sub-List" href="#">Schedule</a></li>
+						<li><a class="menu-sub-List" href="#">Class List</a></li>
+						<li><a class="menu-sub-List" href="#">Register</a></li>
 					</ul>
 				</nav>
 			 </div>
@@ -60,7 +60,7 @@
 	    	</div>
 	    	<div class ="text-left col-md-12">
 	    		<span class="learn-more-text">VIEW CLASSES</span>
-				<a href="#" class="foundn-img"></a>
+				<a href="#classes-list-section" class="foundn-img"></a>
 	    	</div>
 		</article>
 		<div id="about-image" class="col-md-4">
@@ -179,7 +179,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="classListCont">
+		<div id="classes-list-section" class="classListCont">
 			<div class="rowCnt1 row">
 				<div class="frstClm instList col-md-3">
 					Class List.
@@ -316,7 +316,7 @@
 			</div>
 		</section>
 		<section id = "classes-content-5" class="row"> 
-			<a href="#" class="music-logo"></a>
+			<a href="musicHome.jsp" class="music-logo"></a>
 		</section>
 		
 		

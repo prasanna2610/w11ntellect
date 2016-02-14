@@ -315,7 +315,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 .rowCnt1 .frstClm, .rowCnt1 .secndClm{
 	padding-top:15px;
 }
-.rowCntN .frstClm,.rowCntN .secndClm{
+.rowCntN .frstClm,.rowCntN .secndClm,header.headerMenuSection{
 	padding:20px 0;
 }
 .rowCntN .secndClm{
@@ -542,6 +542,15 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 
 
 /* Menu Section */
+.menuLinksContainer{
+    margin-top: -7px;
+}
+.menuLinksContainer .nav-pills>li>a{
+	border-radius:0;
+}
+header.headerMenuSection .container-fluid{
+	margin-left: -50px
+}
 .menuIconImage{
 	display: inline-block;
     background: url("../Images/sprite.png");
@@ -586,10 +595,10 @@ ul.subMenu li,ul.listHolder li{
 	display:inline-block;
 	float:left;
 } 
-.mainHeaders a:hover {
+.mainHeaders a:hover,.menuLinksContainer .nav > li > a:hover{
 	background:yellow;
 }
-.subMenu a:hover{
+.subMenu a:hover,.menuLinksContainer .nav > li > a.menu-sub-List:hover{
 	background:white;
 }
 .subMenu{
@@ -763,22 +772,22 @@ font-size:300%;
 	background: url("../Images/sprite.png");
 	width: 28px;
 	height:30px;
-	background-position: -1467px -83px
+	background-position: -1467px -46px
 }
 .right1{
 	display: block;
 	background: url("../Images/sprite.png");
 	width: 30px;
 	height: 30px;
-	background-position: -1488px -83px;
-}
-
-.right1:hover{
 	background-position: -1488px -45px;
 }
 
+.right1:hover{
+	background-position: -1488px -83px;
+}
+
 .left1:hover{
-	background-position: -1467px -46px;
+	background-position: -1467px -83px;
 }
 
 #now-open{
