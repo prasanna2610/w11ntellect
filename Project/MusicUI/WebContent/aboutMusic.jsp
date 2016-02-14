@@ -26,7 +26,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-md-6 navMenuItems container-fluid menuLinksContainer">
+				<div class="navMenuItems col-md-6 container-fluid menuLinksContainer">
 					<nav id = "about-menu">
 						<ul id="main-list" class="nav nav-pills">
 							<li><a class="aboutList" href="aboutMusic.jsp">About</a></li>
@@ -244,7 +244,7 @@
 						<div class="">
 						   <input type="text" class="email-text" placeholder="ENTER YOUR EMAIL" />
 						   <div class="email-submit">
-						     <input type="submit" name="Submit" placeholder="SUBMIT" class="email-btn">
+						     <input type="submit" value="Submit" name="Submit" placeholder="SUBMIT" class="email-btn">
 						   </div>
 						 </div>
 					</form>

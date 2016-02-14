@@ -128,7 +128,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 	padding: 0;
 }
 #about-menu{
-	padding-top : 5%;
+	padding-top: 2em;
 }
 
 #about-image img{
@@ -352,6 +352,10 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 	float: right;
 }
 
+#classes-content-2{
+	margin-top:30%;
+}
+
 /* Schedule Section */
 
 #scheduleSection {
@@ -436,11 +440,13 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
     height: 2em;
     border: 1px solid #000000;
 	cursor: pointer;
-	cursor: hand;
+	float: left;
 }
 
 .dayTxt, .timeTxt{
 	padding-top: 0.5em;
+	padding-left: 0.5em;
+	float: left;
 }
 
 #schDayControl li, #schTimeControl li{
@@ -460,6 +466,9 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 #schDayList, #schTimeList, #schListComplete ul{
 	padding: 0px;
 	margin: 0px;
+}
+#schDayList li, #schTimeList li{
+	padding: 1em 0;
 }
 
 .selected {
@@ -489,7 +498,8 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 .dayHeader{
-	background-color: #C5B494;
+	background-color: #C8C8C8;
+    font-weight: bold;
 }
 
 .dayListSchList li {
@@ -519,8 +529,8 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 	background-image: url(../Images/music_sprite.png);
     width: 1.5em;
     height: 1em;
-    background-position-x: -603px;
-    background-position-y: -85px;
+    background-position-x: -525px;
+    background-position-y: -78px;
     background-size: 42em;
 	margin-left: 2.2em;
 }
@@ -529,8 +539,8 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 	background-image: url(../Images/music_sprite.png);
 	width: 1.5em;
 	height: 1em;
-	background-position-x: -644px;
-	background-position-y: -85px;
+    background-position-x: -560px;
+    background-position-y: -78px;
 	background-size: 42em;
 	margin-left: 2.2em;
 }
@@ -548,9 +558,9 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 .menuLinksContainer .nav-pills>li>a{
 	border-radius:0;
 }
-header.headerMenuSection .container-fluid{
+/* header.headerMenuSection .container-fluid{
 	margin-left: -50px
-}
+} */
 .menuIconImage{
 	display: inline-block;
     background: url("../Images/music_sprite.png");
@@ -588,6 +598,9 @@ ul.subMenu li,ul.listHolder li{
 	float:left;
 	padding-right:20px;
 }
+.navMenuItems{
+	padding-left:0;
+} 
 .navMenuItems ul, .navMenuItems ul li{
 	margin:0;padding:0;
 }
@@ -719,7 +732,7 @@ font-size:300%;
 
 #content-2{
 	height: 50%;
-	padding-top: 20%;
+	padding-top: 30%;
 }
 
 #slide, #about-image{
@@ -1063,9 +1076,18 @@ font-size:300%;
 	#about-content-3{
 		height: 800px;
 	}
+	.rowCntN .frstClm{
+		width: 40%;
+	}
+	#about-menu{
+		padding:0;
+	}
+	.classes-info{
+		width : 60%;
+		padding-bottom: 5%;
+	}
 	
 }
-	
 	
 @media only screen and (max-width: 500px) {
 	
@@ -1131,8 +1153,8 @@ font-size:300%;
 		height: 600px;
 	}
 	#about-carousel img{
-	width: 100%;
-	height: 300px;
+		width: 100%;
+		height: 300px;
 	}
 
 	.found-img2{
@@ -1164,5 +1186,21 @@ font-size:300%;
 	#leftCarousel, #rightCarousel{
 		height: 600px;
 	}
+	#about-pg-ready-music{
+		top: 7.5em;
+	}
+	#classes-pg-ready-music{
+		top : 6em;
+	}
+	#about-menu{
+		padding:0;
+	}
+	#toClassList {
+    	float: left;
+	}
+	#schSelection select{
+		width: 65%;
+	}
+	
 }
 

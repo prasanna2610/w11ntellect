@@ -66,8 +66,8 @@ function clickShowMore(){
 	$("#showContainer").addClass("lessSelect").removeClass("moreSelect");
 	$("#showMore").css("display","none");
 	$("#showLess").css("display","block");
-	//$(".more").addClass("show");
-	//showItems();
+	$(".more").removeClass("hide").addClass("show");
+	showItems();
 	$(".more").css("display","block");
 }
 
@@ -75,8 +75,8 @@ function clickShowLess(){
 	$("#showContainer").addClass("moreSelect").removeClass("lessSelect");
 	$("#showLess").css("display","none");
 	$("#showMore").css("display","block");
-	//$(".more").addClass("hide");
-	//hideItems();
+	$(".more").addClass("hide");
+	hideItems();
 	$(".more").css("display","none");
 	$('html,body').animate({scrollTop: $("#schListComplete").position().top});
 }

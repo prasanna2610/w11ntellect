@@ -170,7 +170,7 @@
 						<div>
 			   				<input type="text" class="email-text" placeholder="ENTER YOUR EMAIL"/>
 			   				<div class="email-submit">
-			     				<input type="submit" name="Submit" placeholder="SUBMIT" class="email-btn">
+			     				<input type="submit" value="Submit" name="Submit" placeholder="SUBMIT" class="email-btn">
 			   				</div>
 			 			</div>
 					</form>

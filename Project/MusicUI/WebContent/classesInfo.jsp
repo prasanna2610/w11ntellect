@@ -37,9 +37,9 @@
 					<ul id="class-list" class="nav nav-pills">
 						<li class="sub-list-about"><a href="#">Classes</a></li>
 						<li class="bullet"></li>
-						<li><a class="menu-sub-List" href="#">Schedule</a></li>
-						<li><a class="menu-sub-List" href="#">Class List</a></li>
-						<li><a class="menu-sub-List" href="#">Register</a></li>
+						<li><a class="menu-sub-List" href="#scheduleSection">Schedule</a></li>
+						<li><a class="menu-sub-List" href="#classes-list-section">Class List</a></li>
+						<li><a class="menu-sub-List" href="register.jsp">Register</a></li>
 					</ul>
 				</nav>
 			 </div>
@@ -55,7 +55,7 @@
 				<div class="content5-title">Classes</div>
 				 <div class="line col-md-3 col-xs-3"></div>
 			</div>	
-	    	<div class ="text-2 text-left col-md-12">
+	    	<div class ="text-2 classes-info text-left col-md-8">
 	    		New to Music or been practicing for years? Looking to sculpt and tone your music skills?
 	    	</div>
 	    	<div class ="text-left col-md-12">
@@ -78,6 +78,7 @@
 					<div id="toClassTxt">CLASS LIST</div>
 					<div id="toClassBut"></div>
 				</div>
+				<div class="clr"></div>
 			</div>
 			<div id="schTimeline">
 				<span id="schTimelineTxt">Schedule for </span>
@@ -96,32 +97,32 @@
 			</div>
 			<div id="schDayControl">
 				<ul id="schDayList">
-					<li id="Sunday" class="notSelected">
-						<div class="dayBox"></div>
+					<li  class="">
+						<div id="Sunday" class="notSelected dayBox"></div>
 						<div class="dayTxt">Sun</div>
 					</li>
-					<li id="Monday" class="notSelected">
-						<div class="dayBox"></div>
+					<li class="">
+						<div id="Monday" class="notSelected dayBox"></div>
 						<div class="dayTxt">Mon</div>
 					</li>
-					<li id="Tuesday" class="notSelected">
-						<div class="dayBox"></div>
+					<li class="">
+						<div id="Tuesday" class="notSelected dayBox"></div>
 						<div class="dayTxt">Tue</div>
 					</li>
-					<li id="Wednesday" class="notSelected">
-						<div class="dayBox"></div>
+					<li class="">
+						<div id="Wednesday" class="notSelected dayBox"></div>
 						<div class="dayTxt">Wed</div>
 					</li>
-					<li id="Thursday" class="notSelected">
-						<div class="dayBox"></div>
+					<li class="">
+						<div id="Thursday" class="notSelected dayBox"></div>
 						<div class="dayTxt">Thu</div>
 					</li>
-					<li id="Friday" class="notSelected">
-						<div class="dayBox"></div>
+					<li class="">
+						<div id="Friday" class="notSelected dayBox"></div>
 						<div class="dayTxt">Fri</div>
 					</li>
-					<li id="Saturday" class="notSelected">
-						<div class="dayBox"></div>
+					<li class="">
+						<div id="Saturday" class="notSelected dayBox"></div>
 						<div class="dayTxt">Sat</div>
 					</li>
 					
@@ -131,16 +132,16 @@
 			
 			<div id="schTimeControl">
 				<ul id="schTimeList">
-					<li id="morning" class="notSelected">
-						<div class="timeBox"></div>
+					<li class="">
+						<div id="morning" class="notSelected timeBox"></div>
 						<div class="timeTxt">Morning</div>
 					</li>
-					<li id="afternoon" class="notSelected">
-						<div class="timeBox"></div>
+					<li class="">
+						<div id="afternoon" class="notSelected timeBox"></div>
 						<div class="timeTxt">Afternoon</div>
 					</li>
-					<li id="evening" class="notSelected">
-					<div class="timeBox"></div>
+					<li class="">
+						<div id="evening" class="notSelected timeBox"></div>
 						<div class="timeTxt">Evening</div>
 					</li>
 					
@@ -149,24 +150,7 @@
 			</div>
 			
 			<div id="schListComplete">
-				<!-- <div id="sundayList" class="dayList">
-					<div class="dayHeader">
-						<ul>
-							<li>Sunday</li>
-							<li>class</li>
-							<li>instructor</li>
-						</ul>
-						<div class="clr"></div>
-					</div>
-					<div class="dayListSchList">
-						<ul>
-							<li>morning</li>
-							<li>Me & Music</li>
-							<li>Dani Yarrouso</li>
-						</ul>
-						<div class="clr"></div>
-					</div>
-				</div>-->
+				
 			</div> 
 			<div id="showContainer">
 				<div id="showMore">
@@ -194,8 +178,8 @@
 			
 			<div class="rowCntN row">
 				<div  class="frstClm col-md-3">
-					<span class="InstTitle">PIANO</span><br/>
-					<span class="titleDesc">Me&Music 1</span>
+					<div class="InstTitle">PIANO</div>
+					<div class="titleDesc">Me&Music 1</div>
 				</div>
 				<div class="secndClm col-md-8">
 					Piano is a musical instrument played using a keyboard and is one of the world's most familiar
@@ -207,8 +191,8 @@
 			
 			<div class="rowCntN row">
 				<div  class="frstClm col-md-3">
-					<span class="InstTitle">GUITAR</span><br/>
-					<span class="titleDesc">Me&Music 2</span>
+					<div class="InstTitle">GUITAR</div>
+					<div class="titleDesc">Me&Music 2</div>
 				</div>
 				<div class="secndClm col-md-8">
 					The guitar is a popular musical instrument classified as a string instrument with anywhere
@@ -220,8 +204,8 @@
 			
 			<div class="rowCntN row">
 				<div  class="frstClm col-md-3">
-					<span class="InstTitle">DRUMS</span><br/>
-					<span class="titleDesc">Me&Music 3</span>
+					<div class="InstTitle">DRUMS</div>
+					<div class="titleDesc">Me&Music 3</div>
 				</div>
 				<div class="secndClm col-md-8">
 					A drum kit,drum set ,trap set,or just drums is a collection of drums and other percussion
@@ -232,8 +216,8 @@
 			
 			<div class="rowCntN row">
 				<div  class="frstClm col-md-3">
-					<span class="InstTitle">VIOLIN</span><br/>
-					<span class="titleDesc">Me&Music Barre</span>
+					<div class="InstTitle">VIOLIN</div>
+					<div class="titleDesc">Me&Music Barre</div>
 				</div>
 				<div class="secndClm col-md-8">
 					The violin, also called a fiddle,is a string instrument,usually with a four stringstuned in perfect
@@ -244,8 +228,8 @@
 			
 			<div class="rowCntN row">
 				<div  class="frstClm col-md-3">
-					<span class="InstTitle">TABLA</span><br/>
-					<span class="titleDesc">Me&Music Barre2</span>
+					<div class="InstTitle">TABLA</div>
+					<div class="titleDesc">Me&Music Barre2</div>
 				</div>
 				<div class="secndClm col-md-8">
 					The Tabla is a membranaphone percussion instrument(similar to bongos) which is often used 
@@ -259,8 +243,8 @@
 			
 			<div class="rowCntN row">
 				<div  class="frstClm col-md-3">
-					<span class="InstTitle">PIANO & VIOLIN</span><br/>
-					<span class="titleDesc">Me&Music Combo1</span>
+					<div class="InstTitle">PIANO & VIOLIN</div>
+					<div class="titleDesc">Me&Music Combo1</div>
 				</div>
 				<div class="secndClm col-md-8">
 					This includes both Piano and Violin training for students. 
@@ -269,30 +253,14 @@
 			
 			<div class="rowCntN row">
 				<div  class="frstClm col-md-3">
-					<span class="InstTitle">PIANO & GUITAR</span><br/>
-					<span class="titleDesc">Me&Music Combo2</span>
+					<div class="InstTitle">PIANO & GUITAR</div>
+					<div class="titleDesc">Me&Music Combo2</div>
 				</div>
 				<div class="secndClm col-md-8">
 					This includes both Piano and Guitar training for students.
 				</div>
-			</div><!--
-		
-			<div class="img">
-				<img src="Images/classes_playingGuitar.jpg" id="img">
 			</div>
-			
-			<div class="email">
-				<div class="joinMeTxt">
-					Join Me&Music.<br>
-				</div>
-				<div class="joinEmailSec">
-					Join our email list <b>to get your first 10 days free.</b><br><br>
-				</div>
-				<div>
-					<input type="text" class="form-control"  placeholder="Enter your E-MAIL" rule="email" name="footer-email" id="footer-email">
-				</div>
-			</div>
-		--></div>
+		</div>
 	
 	</section>
 	<section id="classes-content-3" class="row">
@@ -308,7 +276,7 @@
 					<div class="">
 					   <input type="text" class="email-text" placeholder="ENTER YOUR E-MAIL" />
 					   <div class="email-submit">
-					     <input type="submit" name="Submit" placeholder="SUBMIT" class="email-btn">
+					     <input type="submit" name="Submit" value="Submit" placeholder="SUBMIT" class="email-btn">
 					   </div>
 					 </div>
 				</form>
