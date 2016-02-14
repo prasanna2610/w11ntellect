@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 
 <link rel="stylesheet" href="css/musicStyle.css" />
-<link rel="stylesheet" href="css/bootstrap-css/bootstrap.css" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap-js/bootstrap.min.js"></script>

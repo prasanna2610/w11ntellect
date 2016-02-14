@@ -669,7 +669,7 @@ ul.subMenu li,ul.listHolder li{
 	font-size: 100%;
 	padding-top: 3%; 
 }
-#ready-music span, #about-pg-ready-music span{
+ #about-pg-ready-music span{
 	border-bottom: 2px solid yellow;
 }
 
@@ -682,6 +682,13 @@ ul.subMenu li,ul.listHolder li{
 	padding-top: 2%;
 	padding-left: 5%;
 	color: black;
+}
+#main-menu nav .nav.nav-pills li a{
+	color:black;
+	border-radius:0px;
+}
+#main-menu nav .nav.nav-pills li a:hover{
+	background:#E4E432;
 }
 #me-music{
 text-align: center;
@@ -705,7 +712,8 @@ font-size:300%;
 	width:100%;
 	height:75%;
 	z-index:-1;
-}
+} 
+
 #slider1{
 	height: 130px;
 	background-color: white;

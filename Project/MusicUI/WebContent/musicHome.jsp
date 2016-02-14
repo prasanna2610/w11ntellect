@@ -16,7 +16,8 @@
 </head>
 
 <body style="background-color: beige">
-	<div class="full-page container-fluid">
+	<section class="full-page container-fluid">
+<header>
 		<div id = "page-menu" class="row">
 			<div id="socialNav" class="col-md-3">
 			<nav class="navbar">
@@ -50,10 +51,10 @@
 				</ul>
 			</nav>
 		</div>
-		<div class = "col-md-3">
-		<div id="ready-music" class="text-right register-font">
-			  <span>READY TO EXPERIENCE ME &amp; MUSIC ?</span>
-		</div>
+		<div class="col-md-3">
+			<div id="about-pg-ready-music" class="text-right register-font">
+				  <a id="expMusicLink"href="register.jsp"><span id="expMusicLinkText">READY TO EXPERIENCE ME &amp; MUSIC ?</span></a>
+			</div>
 		</div>
 </div>
 <div id = "content-1" class="row">
@@ -61,9 +62,11 @@
 		ME &amp; MUSIC
 	</div>
 </div>
+</header> 
 
+<main>
 <div id="content-2" class = "row">
-		<div id="slide" class="col-sm-7">
+		 <div id="slide" class="col-sm-7">
 			<figure class="backgrnd-img" >
 				<img id="1" src="indeximages/aboutpageimg.jpg"
 					class="img-responsive "/>
@@ -71,7 +74,12 @@
 					class="img-responsive"/>
 				<img id="3" src="indeximages/menu.jpg" class="img-responsive"/>
 			</figure>
-		</div>
+		</div> 
+		<!-- <div class="slider col-sm-7">
+	  			<div class="slide1"></div>
+  				<div class="slide2"></div>
+  				<div class="slide3"></div>
+			</div> -->
 		<div id="slide-text" class="col-sm-5">
 			<div id="slider1" class="col-xs-9">
 				<div id="1">
@@ -205,7 +213,7 @@
 	<a href="#" class="music-logo"></a>
 </div>
 
-
+</main>
 
 <!-- footer -->
 <footer>
@@ -231,6 +239,6 @@
 	</div>	
 </footer>
 
-</div>
+</section>
 </body>
 </html>
