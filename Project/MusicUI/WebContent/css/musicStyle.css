@@ -18,7 +18,7 @@ input.button{
  }
 
 .regImage{
-background-image:url("../indeximages/registrationpageimg.jpg");
+background-image:url("../Images/registrationpageimg.jpg");
 padding-top:10px;
 }
 
@@ -897,7 +897,7 @@ font-size:300%;
 	font-size: 150%;
 }
 .cont5Img{
-	background: url("../indeximages/upcoming-home.jpg");
+	background: url("../Images/upcoming-home.jpg");
     height: 100%;
     background-size: 100%;
     background-repeat: round;
