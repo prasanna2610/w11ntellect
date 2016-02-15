@@ -13,6 +13,28 @@ $(document).ready(function(){
 	menuIconChange();
 	meterValueUpdate();
 	populateRegSelectOptions();
+	$(window).on("load resize scroll",function(e){
+		var pos = '';
+		if($("#slide-text") && $("#slide-text").position()){
+			var height = $("#page-menu").height() + $("#content1").height();
+			pos = ($("#slide img").height() - height)+ "px";
+			$("#content-3").css("margin-top", pos);
+		}
+		if($("#about-image img") && $("#about-content-1") && $("#about-content-1").position()){
+			pos='';
+			var height = $("#about-content-1").position().top + $("#about-content-1").height();
+			pos = ($("#about-image img").height() - height) + "px";
+			$("#about-ourFoundations").css("padding-top", pos);
+		}
+		
+		if($("#about-image img") && $("#classes-text") && $("#classes-text").position()){
+			pos='';
+			var height = $("#classes-text").position().top + $("#classes-text").height();
+			pos = ($("#about-image img").height() - height) + "px";
+			$("#classes-content-2").css("padding-top", pos);
+		}
+	});
+		
 });
 function sliderInitilizer(){
 	

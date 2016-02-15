@@ -89,7 +89,11 @@ body {
 	padding: 0px;
 	font-family: verdana;
 	background-color: #F2EDE7;
-} 
+}
+
+#slide img, #about-image img{
+	min-height: 480px;
+}
 .clearBoth{
 	clear: both;
 }
@@ -168,7 +172,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 #about-content-2{
-	padding-top: 40%;
+/* 	padding-top: 40%; */
 }
 #about-content-3{
 	height: 400px;
@@ -368,7 +372,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 #classes-content-2{
-	margin-top:30%;
+/* 	margin-top:30%; */
 }
 
 /* Schedule Section */
@@ -792,8 +796,15 @@ font-size:300%;
 }
 
 #content-2{
-	height: 50%;
-	padding-top: 30%;
+	/* height: 50%;
+	padding-top: 30%; */
+	
+}
+
+#slide-text{
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 #slide, #about-image{
@@ -865,8 +876,9 @@ font-size:300%;
 }
 
 #now-open{
-	margin-top: -4%;
-    margin-left: 4%;
+	position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 #now-open img{
@@ -1097,12 +1109,16 @@ font-size:300%;
 	    padding-top: 2em;
 	}
 	#slide-text{
-		width: 50%;
-	    float: right;
-	    
+		/* width: 50%;
+	    float: right; */
+	    width : 60%
 	}
 	#content-2{
-		padding-top: 10em;
+		/* padding-top: 10em; */
+		
+	}
+	#now-open {
+		width: 25%;
 	}
 	#content-3 {
 	    margin-top: -1em;
@@ -1147,6 +1163,9 @@ font-size:300%;
 		width : 60%;
 		padding-bottom: 5%;
 	}
+	#musicHome-pg-ready-music{
+		top: 5em;
+	}
 	
 }
 	
@@ -1181,7 +1200,10 @@ font-size:300%;
 	    padding-top: 2em;
 	}
 	#content-2{
-		padding-top: 10em;
+		/* padding-top: 10em; */
+	}
+	#slide-text{
+		width : 80%;
 	}
 	.text-1 {
 		font-size: 200%
@@ -1248,10 +1270,13 @@ font-size:300%;
 		height: 600px;
 	}
 	#about-pg-ready-music{
-		top: 7.5em;
+		top: 6em;
 	}
 	#classes-pg-ready-music{
 		top : 6em;
+	}
+	#musicHome-pg-ready-music{
+		top: 7em;
 	}
 	#about-menu{
 		padding:0;

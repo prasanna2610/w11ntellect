@@ -44,23 +44,23 @@
 				</div>
 			</div>
 		</div>
-		<div id = "content-1" class="row">
-			<div id="me-music" class = "col-md-12">
-				ME &amp; MUSIC
-			</div>
-		</div>
 	</header> 
 
 		<main>
+			<div id = "content-1" class="row">
+				<div id="me-music" class = "col-md-12">
+					ME &amp; MUSIC
+				</div>
+			</div>
 			<div id="content-2" class = "row">
-				 <section id="slide" class="col-sm-7">
+				 <section id="slide" class="col-md-5">
 					<figure class="backgrnd-img" >
 						<img id="1" src="Images/home_playingdrums.jpg"/>
 						<img id="2" src="Images/home_playingSaxophone.jpg"/>
 						<img id="3" src="Images/home_sliderPiano.jpg"/>
 					</figure>
 				</section> 
-				<section id="slide-text" class="col-sm-5">
+				<section id="slide-text" class="col-md-5">
 					<div id="slider1" class="col-xs-9">
 						<div id="1">
 							<div>We're open! come in &amp; get your first 10 days free</div>
@@ -81,13 +81,14 @@
 						<div> <a href="#" class="left1" onclick="prev();return false;"></a> </div>
 					</div>
 				</section>
+				<section id="now-open" class="col-md-2 col-xs-4">
+					<img src="Images/home_open.png"/>
+				</section>
 			</div>
 			
 			<div id = "content-3" class = "row">
-				<section id="now-open" class="col-md-2 col-sm-3 col-xs-4">
-					<img src="Images/home_open.png"/>
-				</section>
-				<section class="col-md-9 col-xs-12">
+				
+				<section class="col-md-12 col-xs-12">
 					<div class="col-md-12 col-xs-12"> 
 						<div class="text-1 text-center">Me&amp;Music.</div>
 						<div class="col-md-5 col-xs-5"></div><div class="line col-md-2 col-xs-2"></div><div class="col-md-5 col-xs-5"></div>
@@ -123,7 +124,7 @@
 			</div>
 
 			<div id="content-5" class="row">
-				<article class="col-sm-6">
+				<article class="col-md-6">
 					<div class="content5-title">
 		    			Upcoming Classes.
 					</div>
@@ -153,7 +154,7 @@
 						<a href="#" class="all-classes"></a>
 	    			</div>
     			</article>
-				<div class="col-sm-5 cont5-img-div">
+				<div class="col-md-5 cont5-img-div">
 					<img src="Images/home_upcoming.jpg"/>
 				</div>
 			</div>
