@@ -7,15 +7,26 @@
 	margin-left:50%;
 }
 @font-face{
-font-family:myFirstFont;
-src:url("fonts/Roboto-Black.ttf");
+font-family:regPageButn;
+src:url("../fonts/Roboto-Black.ttf");
 font-weight: bold;
 font-size:14px;
 }
 
-input.button{
- font-family:myFirstFont;
+.reg-SubmitSection #submit{
+ font-family:regPageButn;
  }
+
+@font-face{
+	font-family:readyFont;
+	src:url("../fonts/norwester.otf");
+	font-weight:bold;
+	font-size:14px;
+}
+
+#musicHome-pg-ready-music a,#about-pg-ready-music a,#classes-pg-ready-music a{
+	font-family:readyFont;
+}
 
 .regImage{
 background-image:url("../Images/register_main.jpg");
@@ -104,6 +115,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
     text-decoration: none;
     color:black;
 }
+
 #expMusicLink:hover #expMusicLinkText {
 	border-bottom: 2px solid #7A7E8A;
 }
