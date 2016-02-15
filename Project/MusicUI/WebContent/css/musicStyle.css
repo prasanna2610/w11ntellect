@@ -127,6 +127,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 
 #menu-icon{
 	padding: 0;
+	list-style:none;
 }
 #about-menu{
 	padding-top: 2em;
@@ -268,6 +269,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 
 
 /* ClassList Section */
+
 .classListCont{
 	padding:5%;
 }
@@ -556,6 +558,70 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 
 
 /* Menu Section */
+.spinner-master input[type=checkbox] { display: none; }
+
+.spinner-master * {
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.spinner-master {
+  position: relative;
+  margin: 15px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  top: 8px;
+}
+
+.spinner-master label {
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 5px;
+  left: 0;
+}
+
+.spinner-master .spinner {
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  padding: 0;
+  background-color: #393835;
+}
+
+.spinner-master .diagonal.part-1 {
+  position: relative;
+  float: left;
+}
+
+.spinner-master .horizontal {
+  position: relative;
+  float: left;
+  margin-top: 4px;
+}
+
+.spinner-master .diagonal.part-2 {
+  position: relative;
+  float: left;
+  margin-top: 4px;
+}
+
+.spinner-master input[type=checkbox]:checked ~ .spinner-spin > .horizontal { opacity: 0; }
+
+.spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-1 {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-top: 10px;
+}
+
+.spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-2 {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-top: -12px;
+}
 .menuLinksContainer{
     margin-top: -7px;
 }
@@ -571,15 +637,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
     width: 74px;
     height: 75px;
     background-position: -1199px -8px;
-}
-.horzontalBarImage{
-	display: inline-block;
-    background: url("../Images/common_menu.png");
-    width: 30px;
-    height: 30px;
-    background-repeat: no-repeat;
-	margin-bottom: 1em;
-    margin-left: 1em;
+    float:left;
 }
 .dotDivImg{
 	background: url("../Images/common_dotIcon.png");
@@ -587,15 +645,6 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
     width: 30px;
     height: 18px;
     background-position: center;
-}
-.closeImage{
-	display: inline-block;
-    background: url("../Images/music_sprite.png");
-    width: 30px;
-    height: 30px;
-    background-position: -1586px -77px;
-    margin-bottom: 1.5em;
-    margin-left: 1em;
 }
 ul.subMenu li,ul.listHolder li{
 	list-style-type: none;
@@ -641,13 +690,9 @@ ul.subMenu li,ul.listHolder li{
 	padding-left: 4%;
 	padding-right: 0px;
 }
-
-
 .left{
 	float: left;
 }
-
-
 .full-page.container-fluid {
     margin-left: 2%;
 }

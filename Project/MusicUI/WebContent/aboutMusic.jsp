@@ -22,7 +22,14 @@
 					<nav class="navbar">
 						<ul id="menu-icon" class="">
 							<li class="menuIconImage" id=""><a class="menuHomeLink" href="musicHome.jsp"></a></li>
-							<li class="horzontalBarImage"><a class="menuNavLink" href="#"></a></li>
+							<li class="spinner-master horzontalBarImage">
+							    <input type="checkbox" id="spinner-form" />
+							    <label for="spinner-form" class="spinner-spin">
+									<span class="spinner diagonal part-1"></span>
+									<span class="spinner horizontal"></span>
+									<span class="spinner diagonal part-2"></span>
+							    </label>
+  						</li>
 						</ul>
 					</nav>
 				</div>

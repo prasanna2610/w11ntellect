@@ -47,24 +47,25 @@ function getMonthList(){
 			"December"];
 }
 function menuIconChange(){
-	$("#menu-icon li").on('click',function(){
+	$("#spinner-form").on('click',function(){
 		var temp=false;
-		if($(this).hasClass('horzontalBarImage')){
+		if($(this).parent().hasClass('horzontalBarImage')){
 			temp=true;
-			$(this).removeClass("horzontalBarImage");
-			$(this).addClass("closeImage");
+			$(this).parent().removeClass("horzontalBarImage");
+			$(this).parent().addClass("closeImage");
 			$("#main-list").show();
 			$("#about-list").hide();
 			$("#class-list").hide();
 		}
-		else if($(this).hasClass('closeImage')&& temp==false){
-			$(this).removeClass("closeImage");
-			$(this).addClass("horzontalBarImage");
-			$("#main-list").hide();
-			$("#class-list").show();
-			$("#about-list").show();
-		}
+		else if($(this).parent().hasClass('closeImage')&& temp==false){
+				$(this).parent().removeClass("closeImage");
+				$(this).parent().addClass("horzontalBarImage");
+				$("#main-list").hide();
+				$("#class-list").show();
+				$("#about-list").show();
+			}
 	});
+	
 }
 
 function meterValueUpdate(){
