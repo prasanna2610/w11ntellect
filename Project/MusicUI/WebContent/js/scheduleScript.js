@@ -126,8 +126,8 @@ function getClassSch(item){
 	htmlStr += "<div class='dayListSchList dis " + item.time +"'>";
 	htmlStr += "<ul>";
 	htmlStr += "<li>" + item.timeTxt + "</li>";
-	htmlStr += "<li>" + item.class + "</li>";
-	htmlStr += "<li>" + item.instructor + "</li>";
+	htmlStr += "<li class='schClassInsTxt'>" + item.class + "</li>";
+	htmlStr += "<li class='schClassInsTxt'>" + item.instructor + "</li>";
 	htmlStr += "<ul>";
 	htmlStr += "<div class='clr'></div>";
 	htmlStr += "</div>";

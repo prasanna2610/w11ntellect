@@ -13,7 +13,7 @@
 <title>Welcome to Me&amp;Music</title>
 </head>
 
-<body style="background-color: beige">
+<body>
 	<section class="full-page container-fluid">
 	<header>
 		<div id = "page-menu" class="row">

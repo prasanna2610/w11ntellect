@@ -77,6 +77,7 @@ body {
 	margin:0px;
 	padding: 0px;
 	font-family: verdana;
+	background-color: #F2EDE7;
 } 
 .clearBoth{
 	clear: both;
@@ -357,6 +358,9 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 /* Schedule Section */
+.schClassInsTxt{
+	text-decoration: underline;
+}
 
 #scheduleSection {
 	width: 86%;
@@ -498,7 +502,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 .dayHeader{
-	background-color: #C8C8C8;
+	background-color: #DDDBCF;
     font-weight: bold;
 }
 
@@ -508,11 +512,11 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 
 .dayListSchList{
-	background-color: #FAEBD7;
+	background-color: #FBF8F1;
 }
 
 .dayListSchList:hover {
-	background: none;
+	background: #DDDBCF;
 }
 
 #schListComplete {

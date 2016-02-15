@@ -14,7 +14,7 @@
 <title>About - Music and Me</title>
 </head>
 
-<body style="background-color: beige">
+<body>
 	<section class="full-page container-fluid">
 	<!-- header -->
 		<header class = "row headerMenuSection">
