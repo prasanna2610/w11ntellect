@@ -13,6 +13,10 @@ $(document).ready(function(){
 	menuIconChange();
 	meterValueUpdate();
 	populateRegSelectOptions();
+	dynamicSizing();
+});
+
+function dynamicSizing(){
 	$(window).on("load resize scroll",function(e){
 		var pos = '';
 		if($("#slide-text") && $("#slide-text").position()){
@@ -39,8 +43,7 @@ $(document).ready(function(){
 			$("#classes-content-2").css("padding-top", pos);
 		}
 	});
-		
-});
+}
 function sliderInitilizer(){
 	
 	$("#slider1 > div").hover(
@@ -92,7 +95,6 @@ function menuIconChange(){
 				$("#about-list").show();
 			}
 	});
-	
 }
 
 function meterValueUpdate(){
@@ -150,7 +152,6 @@ function showSlide(id){
 	sliderInt=id;
 	sliderNext=id+1;
 	startSlider();
-
 }
 
 function pagination(startVal,endVal){
