@@ -147,6 +147,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 }
 #about-menu{
 	padding-top: 2em;
+	margin-left: -8%;
 }
 
 #about-image img{
@@ -583,7 +584,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 
 .spinner-master {
   position: relative;
-  margin: 15px;
+  margin: 15px 10px;
   height: 30px;
   width: 30px;
   float: left;
@@ -1158,6 +1159,7 @@ font-size:300%;
 	}
 	#about-menu{
 		padding:0;
+		margin: 0;
 	}
 	.classes-info{
 		width : 60%;
@@ -1280,6 +1282,7 @@ font-size:300%;
 	}
 	#about-menu{
 		padding:0;
+		margin: 0;
 	}
 	#toClassList {
     	float: left;

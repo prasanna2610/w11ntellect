@@ -18,7 +18,7 @@
 	<section class="full-page container-fluid">
 	<!-- header -->
 		<header class = "row headerMenuSection">
-				<div class="col-md-2 col-xs-8 menuImgCont">
+				<div class="col-md-2 col-xs-9 menuImgCont">
 					<nav class="navbar">
 						<ul id="menu-icon" class="">
 							<li class="menuIconImage" id=""><a class="menuHomeLink" href="musicHome.jsp"></a></li>
