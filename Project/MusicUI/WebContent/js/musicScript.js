@@ -17,8 +17,13 @@ $(document).ready(function(){
 		var pos = '';
 		if($("#slide-text") && $("#slide-text").position()){
 			var height = $("#page-menu").height() + $("#content1").height();
-			pos = ($("#slide img").height() - height)+ "px";
+			var imgHeight = $("#slide img").height();
+			pos = (imgHeight - height)+ "px";
 			$("#content-3").css("margin-top", pos);
+			pos='';
+			var nowOpenHeight = $("#now-open img").height();
+			pos = (imgHeight - (nowOpenHeight/2)) + 'px'; 
+			$("#now-open").css("top", pos);
 		}
 		if($("#about-image img") && $("#about-content-1") && $("#about-content-1").position()){
 			pos='';
