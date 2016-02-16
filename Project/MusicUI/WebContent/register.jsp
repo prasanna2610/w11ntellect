@@ -74,7 +74,7 @@
 					<section class="reg-SubmitSection">
 						<button type="submit" class="btn btn-default" name="submit" id="submit">Sign me up!</button> 
 						<br> <br>
-						<button type="submit" class="btn btn-default" name="submit" id="submit">Back to Me&amp;Music</button>
+						<a href="musicHome.jsp" class="btn btn-default" name="backToHome" id="backToHome">Back to Me&amp;Music</a>
 					</section> 
 				</form>
 			</div>
