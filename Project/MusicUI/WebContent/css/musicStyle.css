@@ -480,6 +480,10 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
     appearance: none;
 }
 
+#schSelection select::-ms-expand {
+	display: none;
+}
+
 #schSelection {
 	padding-top: 2em;
 }
