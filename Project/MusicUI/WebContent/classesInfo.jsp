@@ -70,7 +70,7 @@
 				<a href="#classes-list-section" class="foundn-img"></a>
 	    	</div>
 		</article>
-		<div id="about-image" class="col-md-4">
+		<div id="about-image" class="">
 			<figure class="backgrnd-img">
 				<img src="Images/classes_mike.jpg"
 					class="img-responsive"/>

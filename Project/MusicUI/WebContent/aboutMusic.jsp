@@ -72,7 +72,7 @@
 						<a href="#about-ourFoundations" class="foundn-img"></a>
 			    	</div>
 				</article>
-				<div id="about-image" class="col-md-4">
+				<div id="about-image" class="">
 					<figure class="backgrnd-img">
 						<img src="Images/about_boyandguitar.jpg"
 							class="img-responsive"/>

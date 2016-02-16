@@ -53,7 +53,7 @@
 				</div>
 			</div>
 			<div id="content-2" class = "row">
-				 <section id="slide" class="col-md-5">
+				 <section id="slide" class="">
 					<figure class="backgrnd-img" >
 						<img id="1" src="Images/home_playingdrums.jpg"/>
 						<img id="2" src="Images/home_playingSaxophone.jpg"/>

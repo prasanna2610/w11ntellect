@@ -19,9 +19,12 @@ $(document).ready(function(){
 function dynamicSizing(){
 	$(window).on("load resize scroll",function(e){
 		var pos = '';
-		if($("#slide-text") && $("#slide-text").position()){
+		if($("#slide img")){
 			var height = $("#page-menu").height() + $("#content1").height();
 			var imgHeight = $("#slide img").height();
+			pos = imgHeight - $("#slider1").outerHeight() - 20 + 'px';
+			$("#slide-text").css("top", pos);
+			pos='';
 			pos = (imgHeight - height)+ "px";
 			$("#content-3").css("margin-top", pos);
 			pos='';
