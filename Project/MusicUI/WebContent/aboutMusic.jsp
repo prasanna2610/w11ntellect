@@ -64,7 +64,8 @@
 						 <div class="line col-md-3 col-xs-3"></div>
 					</div>	
 			    	<div class ="text-2 text-left col-md-12">
-			    		Me&Music offers music classes, entertaining live music and unplugged songs, live audience play and a memorable experience.
+			    		Me&amp;Music offers music classes, entertaining live music<br> and unplugged songs, live audience play and a memorable <br>
+			    		experience.
 			    	</div>
 			    	<div class ="text-left col-md-12">
 			    		<span class="learn-more-text">OUR FOUNDATIONS</span>
@@ -206,7 +207,7 @@
 					<div class="text-1 text-center">Teacher Spotlight.</div>
 					<div class="col-md-5 col-xs-5"></div><div class="line col-md-2 col-xs-2"></div><div class="col-md-5 col-xs-5"></div>	
 				</div>
-				<article class="col-md-7">
+				<article class="spotlight col-md-7">
 					<h3>SubhamoyKarmakar</h3>
 					<p>Subhamoy brings an aspect of heart felt lightness and joy to
 						his teaching with a hint of playfulness gathered from his

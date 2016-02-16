@@ -94,7 +94,8 @@
 						<div class="col-md-5 col-xs-5"></div><div class="line col-md-2 col-xs-2"></div><div class="col-md-5 col-xs-5"></div>
 					</div>	
     				<div class ="text-2 text-center col-md-12">
-    					Me&amp;Music offers music classes, entertaining live music and unplugged songs, live audience play and a memorable experience.
+    					Me&amp;Music offers music classes, entertaining live music and <br>
+    					unplugged songs, live audience play and a memorable experience.
     				</div>
    					<div id ="text-3" class="col-md-12 text-center">
 						<span class="learn-more-text">LEARN MORE ABOUT US</span>

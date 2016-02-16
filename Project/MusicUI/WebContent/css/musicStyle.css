@@ -24,7 +24,7 @@ font-size:14px;
 	font-size:14px;
 }
 
-#musicHome-pg-ready-music a,#about-pg-ready-music a,#classes-pg-ready-music a{
+#musicHome-pg-ready-music a,#about-pg-ready-music a,#classes-pg-ready-music a,.learn-more-text{
 	font-family:readyFont;
 }
 
@@ -338,8 +338,12 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 .rowCntN .frstClm,.rowCntN .secndClm,header.headerMenuSection{
 	padding:20px 0;
 }
+.rowCnt1 .frstClm{
+	font-size:320%;
+}
 .rowCntN .secndClm{
-	font-size:12px;
+	font-size:112%;
+	font-family:George,serif;
 }
 .instList{
 	font-size:32px;		
@@ -355,6 +359,7 @@ div#about-pg-ready-music a, div#classes-pg-ready-music a, div#musicHome-pg-ready
 	font-size: 1em;
     float: left;
     padding: 0.5em;
+    font-family:readyFont;
 }
 .feedback_img{
 	background-image: url(../Images/music_sprite.png);
@@ -895,13 +900,13 @@ font-size:300%;
 	font-size: 100%;
 }
 .text-2{
-	font-family: Century Gothic, Arial, sans-serif;
+	font-family:Georgia-serif;
 	font-size: 150%;
 	padding-top: 5%; 
 	padding-bottom: 10%;
 }
 .text-1{
-	font-family: Century Gothic, Arial, sans-serif;
+	font-family: Georgia-serif;
 	font-weight: bold;	
 	font-size: 400%;
 	padding-top: 5%; 
@@ -975,11 +980,14 @@ font-size:300%;
 }
 
 .content5-title{
-	font-family: Century Gothic, Arial, sans-serif;
+	font-family: Georgia-serif;
 	font-size: 300%;
 	padding: 5% 0;
 }
-
+.spotlight{
+	font-family: George,serif;
+    font-size: 120%;
+}
 .inlineBlockTxt{
 	display: inline-block;
 }
@@ -989,8 +997,8 @@ font-size:300%;
 }
 
 .cont5Txt>div:first-child{
-	font-family: Century Gothic, Arial, sans-serif;
-	font-size: 150%;
+	font-family:Georgia-serif;
+	font-size: 170%;
 }
 .cont5Img{
 	background: url("../Images/upcoming-home.jpg");
