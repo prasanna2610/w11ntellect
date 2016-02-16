@@ -17,7 +17,7 @@
 	<section class="full-page container-fluid">
 	<header>
 		<div id = "page-menu" class="row">
-			<div id="socialNav" class="col-md-3">
+			<div id="socialNav" class="col-md-4">
 				<nav>
 					<div class="social-icons">
 						<ul class="social-icon-list">
@@ -28,13 +28,13 @@
 					</div>
 				</nav>
 			</div>
-			<div id= "main-menu" class="container-fluid col-md-5">
+			<div id= "main-menu" class="container-fluid col-md-4">
 				<nav>
 					
 					<ul class="nav nav-pills">
-						<li class="col-md-3 text-center"><a href="aboutMusic.jsp">About</a></li>
-						<li class="col-md-3 text-center"><a href="classesInfo.jsp">Classes</a></li>
-						<li class="col-md-3 text-center"><a href="#">Contact</a></li>
+						<li class="text-center"><a href="aboutMusic.jsp">About</a></li>
+						<li class="text-center"><a href="classesInfo.jsp">Classes</a></li>
+						<li class="text-center"><a href="#">Contact</a></li>
 					</ul>
 				</nav>
 			</div>

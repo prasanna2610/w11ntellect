@@ -11,6 +11,9 @@ function initSchedule(){
 	$(".selected").click(function(event){
 		unSelectControl(event)
 	});
+	$("#toClassBut").click(function(event){
+		$('html,body').animate({scrollTop: $("#classes-list-section").position().top});
+	});
 	populateSchList();
 	initShowOptions();
 }
