@@ -1,4 +1,3 @@
-
 $(window).load(function() {
 	initSchedule();
 });
@@ -6,16 +5,13 @@ $(window).load(function() {
 function initSchedule(){
 	printTimeline();
 	populateSelectOptions();
-	
 	$(".notSelected").click(function(event){
 		selectControl(event);
 	});
 	$(".selected").click(function(event){
 		unSelectControl(event)
 	});
-	
 	populateSchList();
-	
 	initShowOptions();
 }
 
@@ -31,7 +27,6 @@ function initShowOptions(){
 	$("#showLess").click(function(){
 		clickShowLess();
 	});
-	
 }
 
 function assignShowOption(){

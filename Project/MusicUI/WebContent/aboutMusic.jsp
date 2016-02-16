@@ -29,7 +29,7 @@
 									<span class="spinner horizontal"></span>
 									<span class="spinner diagonal part-2"></span>
 							    </label>
-  						</li>
+  							</li>
 						</ul>
 					</nav>
 				</div>

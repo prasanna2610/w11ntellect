@@ -44,8 +44,8 @@ function dynamicSizing(){
 		}
 	});
 }
+
 function sliderInitilizer(){
-	
 	$("#slider1 > div").hover(
 		function(){
 		stopLoop();
@@ -55,6 +55,7 @@ function sliderInitilizer(){
 		}	
 	);
 }
+
 function populateRegSelectOptions(){
 	var monthList = getMonthList();
 	var i,size = monthList.length;
@@ -62,6 +63,7 @@ function populateRegSelectOptions(){
 		$("#dob-monthSelect").append("<option value='"+monthList[i]+"'>"+monthList[i]+"</option>")
 	}
 }
+
 function getMonthList(){
 	return ["January",
 			"February",
@@ -76,6 +78,7 @@ function getMonthList(){
 			"November",
 			"December"];
 }
+
 function menuIconChange(){
 	$("#spinner-form").on('click',function(){
 		var temp=false;

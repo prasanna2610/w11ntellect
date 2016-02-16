@@ -294,17 +294,13 @@
 			<a href="musicHome.jsp" class="music-logo"></a>
 		</section>
 		
-		
-		
 		<!-- footer -->
 		<footer id = "classes-content-6" class="row">
 				<div class = "text-center col-md-6 footer-left">
 					INSPIRING ME&amp;MUSIC
 				</div>
 				<div class = "col-md-5">
-				
 					<nav class="navbar">
-					
 						<ul class="nav nav-pills">
 							<li class="" id=""><a class="grayFont" href="#">Privacy Policy</a>
 							</li>
@@ -312,14 +308,10 @@
 							</li>
 							<li class="" id=""><a class="grayFont" href="#">Feedback</a>
 							</li>
-							
 						</ul>
 					</nav>
 				</div>
 		</footer>
-	
-	
 </section>
-
 </body>
 </html>
